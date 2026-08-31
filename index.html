@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data &amp; Analytics Curriculum</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="app-header">
+    <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="4" y1="7" x2="20" y2="7"></line>
+        <line x1="4" y1="12" x2="20" y2="12"></line>
+        <line x1="4" y1="17" x2="20" y2="17"></line>
+      </svg>
+    </button>
+    <div class="header-titles">
+      <h1>Data &amp; Analytics Curriculum</h1>
+      <span class="subtitle">Faculty of Management &amp; Finance · University of Colombo</span>
+    </div>
+    <span id="header-progress" class="header-progress"></span>
+  </header>
+
+  <div class="app-body">
+    <div id="sidebar-scrim" class="sidebar-scrim"></div>
+
+    <nav id="dynamic-sidebar" class="topic-sidebar" aria-label="Curriculum navigation">
+      <div class="sidebar-search-wrap">
+        <input id="sidebar-search" type="text" placeholder="Search topics…" autocomplete="off">
+      </div>
+      <div class="sidebar-scroll">
+        <div id="sidebar-tree"></div>
+      </div>
+    </nav>
+
+    <section class="content-viewport">
+      <div id="breadcrumb-bar" class="breadcrumb"></div>
+      <article id="active-content-viewport" class="content-card-viewport" aria-live="polite">
+        <div class="boot-screen">
+          <h2>Loading curriculum…</h2>
+        </div>
+      </article>
+
+      <div class="pagination-bar">
+        <span id="page-indicator" class="page-indicator">Loading…</span>
+        <div class="nav-cluster">
+          <button id="btn-prev-page" class="nav-btn" disabled>Previous</button>
+          <button id="btn-next-page" class="nav-btn" disabled>Next</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

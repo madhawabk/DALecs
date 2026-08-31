@@ -1,0 +1,666 @@
+{
+  "id": "root",
+  "text": "Data & Analytics Curriculum Blueprint",
+  "children": [
+    {
+      "id": "mod1",
+      "text": "Module 01 – Foundations of Computing",
+      "children": [
+        {
+          "id": "m1_s1",
+          "text": "Introduction to Computing",
+          "children": [
+            {
+              "id": "m1_s1_c1",
+              "text": "What is Computing?",
+              "summary": "Computing is the systematic use of computers and algorithms to process information — turning raw inputs into useful outputs through a defined set of steps.",
+              "blocks": [
+                {
+                  "type": "text",
+                  "content": "At its core, computing is the process of using algorithms — step-by-step instructions — to take in data, process it, and produce a result. This applies whether you're running a formula in Excel, querying a database, or training a machine learning model. Every computing task, no matter how advanced, breaks down into this same input-process-output pattern."
+                },
+                {
+                  "type": "list",
+                  "title": "Why This Matters for Analytics",
+                  "items": [
+                    "<strong>Input:</strong> Raw data — transaction records, survey responses, sensor readings.",
+                    "<strong>Process:</strong> The logic applied — a pivot table, a SQL query, a statistical model.",
+                    "<strong>Output:</strong> Decision-ready information — a report, a dashboard, a forecast."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1_s1_c2",
+              "text": "Hardware vs Software",
+              "summary": "Hardware is the physical machinery; software is the set of instructions that tells that machinery what to do. Analytics work depends on both working together.",
+              "blocks": [
+                {
+                  "type": "text",
+                  "content": "Hardware refers to the physical components of a computing system — processors, memory, storage, and network devices. Software is the set of instructions (programs) that run on that hardware to perform tasks. Neither is useful without the other: hardware provides the capacity to compute, while software directs what gets computed."
+                },
+                {
+                  "type": "table",
+                  "title": "Hardware vs Software at a Glance",
+                  "headers": [
+                    "Aspect",
+                    "Hardware",
+                    "Software"
+                  ],
+                  "rows": [
+                    [
+                      "What it is",
+                      "Physical, tangible components",
+                      "Instructions and programs"
+                    ],
+                    [
+                      "Examples",
+                      "Laptop, server, hard drive",
+                      "Excel, Power BI, SQL Server"
+                    ],
+                    [
+                      "Changes over time",
+                      "Wears out physically, gets replaced",
+                      "Gets updated, patched, upgraded"
+                    ],
+                    [
+                      "Business relevance",
+                      "IT infrastructure and budgeting",
+                      "The tools analysts use daily"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1_s1_c3",
+              "text": "Operating Systems"
+            },
+            {
+              "id": "m1_s1_c4",
+              "text": "GUI vs CLI",
+              "summary": "GUIs let you interact with software visually using clicks and menus; CLIs let you interact by typing commands. Analytics increasingly draws on both.",
+              "blocks": [
+                {
+                  "type": "text",
+                  "content": "A Graphical User Interface (GUI) lets you interact with software visually — think Excel's ribbon menus or Power BI's drag-and-drop canvas. A Command Line Interface (CLI) lets you interact by typing text commands — the way you'd run a Python script or a SQL query. GUIs are easier to learn; CLIs are faster to scale and automate."
+                },
+                {
+                  "type": "list",
+                  "title": "Where You'll See Each",
+                  "items": [
+                    "<strong>GUI examples:</strong> Excel, Power BI, Tableau — point-and-click analytics tools.",
+                    "<strong>CLI examples:</strong> Running a Python script, querying a database via SQL.",
+                    "<strong>The trend:</strong> As you progress from Excel toward Python and SQL in this course, you'll move from GUI-first to CLI-comfortable workflows."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1_s1_c5",
+              "text": "Local Systems vs Cloud Systems"
+            }
+          ]
+        },
+        {
+          "id": "m1_s2",
+          "text": "Evolution of Technology",
+          "children": [
+            {
+              "id": "m1_s2_c1",
+              "text": "Abacus to Modern Computers"
+            },
+            {
+              "id": "m1_s2_c2",
+              "text": "Mainframe Era"
+            },
+            {
+              "id": "m1_s2_c3",
+              "text": "Personal Computing"
+            },
+            {
+              "id": "m1_s2_c4",
+              "text": "Internet Revolution"
+            },
+            {
+              "id": "m1_s2_c5",
+              "text": "Cloud Computing"
+            },
+            {
+              "id": "m1_s2_c6",
+              "text": "Artificial Intelligence Era"
+            },
+            {
+              "id": "m1_s2_c7",
+              "text": "Emerging Technologies",
+              "children": [
+                {
+                  "id": "m1_s2_c7_1",
+                  "text": "IoT"
+                },
+                {
+                  "id": "m1_s2_c7_2",
+                  "text": "Blockchain"
+                },
+                {
+                  "id": "m1_s2_c7_3",
+                  "text": "Generative AI"
+                },
+                {
+                  "id": "m1_s2_c7_4",
+                  "text": "Quantum Computing Overview"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m1_s3",
+          "text": "Modern Enterprise Landscape",
+          "children": [
+            {
+              "id": "m1_s3_c1",
+              "text": "Enterprise Applications"
+            },
+            {
+              "id": "m1_s3_c2",
+              "text": "ERP Systems (SAP, Oracle, MS Dynamics)"
+            },
+            {
+              "id": "m1_s3_c3",
+              "text": "Databases"
+            },
+            {
+              "id": "m1_s3_c4",
+              "text": "Servers and Infrastructure"
+            },
+            {
+              "id": "m1_s3_c5",
+              "text": "Cloud Platforms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mod2",
+      "text": "Module 02 – Introduction to Data & Analytics",
+      "children": [
+        {
+          "id": "m2_s1",
+          "text": "Understanding Data",
+          "children": [
+            {
+              "id": "m2_s1_c1",
+              "text": "What is Data?"
+            },
+            {
+              "id": "m2_s1_c2",
+              "text": "Evolution of Data Analytics"
+            },
+            {
+              "id": "m2_s1_c3",
+              "text": "Data Life Cycle"
+            },
+            {
+              "id": "m2_s1_c4",
+              "text": "Data Domains (DE, DA, DS)"
+            },
+            {
+              "id": "m2_s1_c5",
+              "text": "Big Data and AI"
+            },
+            {
+              "id": "m2_s1_c6",
+              "text": "Information vs Knowledge"
+            },
+            {
+              "id": "m2_s1_c7",
+              "text": "Structured Data"
+            },
+            {
+              "id": "m2_s1_c8",
+              "text": "Semi-Structured Data"
+            },
+            {
+              "id": "m2_s1_c9",
+              "text": "Unstructured Data"
+            }
+          ]
+        },
+        {
+          "id": "m2_s2",
+          "text": "Introduction to Data Analytics",
+          "children": [
+            {
+              "id": "m2_s2_c1",
+              "text": "What is Data Analytics?"
+            },
+            {
+              "id": "m2_s2_c2",
+              "text": "Why Data Analytics Matters"
+            },
+            {
+              "id": "m2_s2_c3",
+              "text": "Data-Driven Decision Making"
+            },
+            {
+              "id": "m2_s2_c4",
+              "text": "Analytics in Accounting/Finance"
+            },
+            {
+              "id": "m2_s2_c5",
+              "text": "Data Sources"
+            },
+            {
+              "id": "m2_s2_c6",
+              "text": "Data Analytics Lifecycle"
+            }
+          ]
+        },
+        {
+          "id": "m2_s3",
+          "text": "Types of Analytics",
+          "children": [
+            {
+              "id": "m2_s3_c1",
+              "text": "Descriptive Analytics"
+            },
+            {
+              "id": "m2_s3_c2",
+              "text": "Diagnostic Analytics"
+            },
+            {
+              "id": "m2_s3_c3",
+              "text": "Predictive Analytics"
+            },
+            {
+              "id": "m2_s3_c4",
+              "text": "Prescriptive Analytics"
+            }
+          ]
+        },
+        {
+          "id": "m2_s4",
+          "text": "Roles in Data Domain",
+          "children": [
+            {
+              "id": "m2_s4_c1",
+              "text": "Data Engineer"
+            },
+            {
+              "id": "m2_s4_c2",
+              "text": "Data Analyst"
+            },
+            {
+              "id": "m2_s4_c3",
+              "text": "Data Scientist"
+            },
+            {
+              "id": "m2_s4_c4",
+              "text": "Business Analyst"
+            },
+            {
+              "id": "m2_s4_c5",
+              "text": "Financial Analyst"
+            },
+            {
+              "id": "m2_s4_c6",
+              "text": "AI Engineer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mod3",
+      "text": "Module 03 – Spreadsheet Analytics (Excel)",
+      "children": [
+        {
+          "id": "m3_s1",
+          "text": "Excel Fundamentals (Tables, Formulas)"
+        },
+        {
+          "id": "m3_s2",
+          "text": "Data Analysis (Lookup, Logic, Date)"
+        },
+        {
+          "id": "m3_s3",
+          "text": "Pivot Tables (Aggregation, Reporting)"
+        },
+        {
+          "id": "m3_s4",
+          "text": "Data Visualization (Dashboards, Charts)"
+        }
+      ]
+    },
+    {
+      "id": "mod4",
+      "text": "Module 04 – Data Collection & Preparation",
+      "children": [
+        {
+          "id": "m4_s1",
+          "text": "Techniques (Manual, Forms, APIs, Scraping)"
+        },
+        {
+          "id": "m4_s2",
+          "text": "Data Quality (Accuracy, Completeness, Validity)"
+        },
+        {
+          "id": "m4_s3",
+          "text": "Data Cleaning (Missing Values, Outliers, Duplicates)"
+        },
+        {
+          "id": "m4_s4",
+          "text": "Data Transformation (Formatting, Enrichment)"
+        }
+      ]
+    },
+    {
+      "id": "mod5",
+      "text": "Module 05 – Programming Fundamentals",
+      "children": [
+        {
+          "id": "m5_s1",
+          "text": "Why It Matters (Automation, Scalability)"
+        },
+        {
+          "id": "m5_s2",
+          "text": "Core Concepts (Variables, Data Types, Operators)"
+        },
+        {
+          "id": "m5_s3",
+          "text": "Control Flow (Conditions, Loops)"
+        },
+        {
+          "id": "m5_s4",
+          "text": "Functions (Parameters, Return Values)"
+        },
+        {
+          "id": "m5_s5",
+          "text": "Object-Oriented Concepts (Objects, Classes)"
+        },
+        {
+          "id": "m5_s6",
+          "text": "Language Core (Compiled vs Interpreted)"
+        }
+      ]
+    },
+    {
+      "id": "mod6",
+      "text": "Module 06 – Python for Data Analytics",
+      "children": [
+        {
+          "id": "m6_sub1",
+          "text": "Python Fundamentals",
+          "children": [
+            {
+              "id": "m6_s1_c1",
+              "text": "Installing & Development Environments"
+            },
+            {
+              "id": "m6_s1_c2",
+              "text": "Syntax, Variables, Operators, I/O"
+            },
+            {
+              "id": "m6_s1_c3",
+              "text": "Data Structures (Lists, Tuples, Dicts, Sets)"
+            },
+            {
+              "id": "m6_s1_c4",
+              "text": "Functions, Modules, Packages & Libraries"
+            },
+            {
+              "id": "m6_s1_c5",
+              "text": "File Handling (CSV, Excel, JSON)"
+            },
+            {
+              "id": "m6_s1_c6",
+              "text": "Error Handling & Debugging Basics"
+            }
+          ]
+        },
+        {
+          "id": "m6_sub2",
+          "text": "Data Analytics with Python",
+          "children": [
+            {
+              "id": "m6_s2_c1",
+              "text": "Analytical Libraries (NumPy, Pandas)"
+            },
+            {
+              "id": "m6_s2_c2",
+              "text": "Data Manipulation (Filtering, Merging)"
+            },
+            {
+              "id": "m6_s2_c3",
+              "text": "Exploratory Data Analysis (EDA)"
+            },
+            {
+              "id": "m6_s2_c4",
+              "text": "Data Visualization (Matplotlib, Seaborn)"
+            },
+            {
+              "id": "m6_s2_c5",
+              "text": "Automation & Folder Processing Tasks"
+            },
+            {
+              "id": "m6_s2_c6",
+              "text": "Practical Accounting Use Cases"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mod8",
+      "text": "Module 08 – Database Systems",
+      "children": [
+        {
+          "id": "m8_s1",
+          "text": "Introduction & Database Concepts"
+        },
+        {
+          "id": "m8_s2",
+          "text": "Relational Databases (Tables, Keys, Links)"
+        },
+        {
+          "id": "m8_s3",
+          "text": "Language Subsets: DQL, DDL, DML"
+        },
+        {
+          "id": "m8_s4",
+          "text": "Database Design & Normalization Paradigms"
+        },
+        {
+          "id": "m8_s5",
+          "text": "Enterprise Infrastructure Systems"
+        },
+        {
+          "id": "m8_s6",
+          "text": "Modern Data Platforms & Cloud Warehouses"
+        }
+      ]
+    },
+    {
+      "id": "mod9",
+      "text": "Module 09 – SQL for Data Analytics",
+      "children": [
+        {
+          "id": "m9_s1",
+          "text": "Introduction to SQL Syntax & Rules"
+        },
+        {
+          "id": "m9_s2",
+          "text": "Querying (SELECT, WHERE, ORDER BY, DISTINCT)"
+        },
+        {
+          "id": "m9_s3",
+          "text": "Filtering, Comparison & Logical Operators"
+        },
+        {
+          "id": "m9_s4",
+          "text": "Aggregation Functions (COUNT, SUM, AVG)"
+        },
+        {
+          "id": "m9_s5",
+          "text": "Grouping (GROUP BY, HAVING)"
+        },
+        {
+          "id": "m9_s6",
+          "text": "Joins (INNER, LEFT, RIGHT, FULL)"
+        },
+        {
+          "id": "m9_s7",
+          "text": "Data Manipulation (INSERT, UPDATE, DELETE)"
+        },
+        {
+          "id": "m9_s8",
+          "text": "Practical Business & Operational Queries"
+        },
+        {
+          "id": "m9_s9",
+          "text": "Benefits and Limitations of SQL"
+        }
+      ]
+    },
+    {
+      "id": "mod10",
+      "text": "Module 10 – Business Intelligence",
+      "children": [
+        {
+          "id": "m10_s1",
+          "text": "Introduction to BI & Organization Models"
+        },
+        {
+          "id": "m10_s2",
+          "text": "BI Architecture & Data Integration Pipelines"
+        },
+        {
+          "id": "m10_s3",
+          "text": "Key Performance Indicators (KPI Frameworks)"
+        },
+        {
+          "id": "m10_s4",
+          "text": "Power BI Fundamentals & DAX Modeling Engine"
+        },
+        {
+          "id": "m10_s5",
+          "text": "Data Visualization & Dashboard Componentry"
+        },
+        {
+          "id": "m10_s6",
+          "text": "Report Publishing & Data Refresh Strategies"
+        }
+      ]
+    },
+    {
+      "id": "mod11",
+      "text": "Module 11 – Data Storytelling",
+      "children": [
+        {
+          "id": "m11_s1",
+          "text": "Introduction (Storytelling vs Reporting)"
+        },
+        {
+          "id": "m11_s2",
+          "text": "Components (Data, Narrative, Visuals)"
+        },
+        {
+          "id": "m11_s3",
+          "text": "Understanding Audiences (Execs vs Ops)"
+        },
+        {
+          "id": "m11_s4",
+          "text": "Story Structure (Context, Problem, Insight)"
+        },
+        {
+          "id": "m11_s5",
+          "text": "Analytical Communication & Trend Exposure"
+        },
+        {
+          "id": "m11_s6",
+          "text": "Storytelling Narrative Techniques"
+        },
+        {
+          "id": "m11_s7",
+          "text": "Common Visualization Pitfalls to Avoid"
+        },
+        {
+          "id": "m11_s8",
+          "text": "Executive Dashboard Framework Presentations"
+        }
+      ]
+    },
+    {
+      "id": "mod12",
+      "text": "Module 12 – Ecosystems & Modern Architecture",
+      "children": [
+        {
+          "id": "m12_s1",
+          "text": "Storage (Files, Databases, Warehouses, Lakes)"
+        },
+        {
+          "id": "m12_s2",
+          "text": "Big Data Fundamentals (The 5 V's Matrix)"
+        },
+        {
+          "id": "m12_s3",
+          "text": "Modern Data Architectures (ETL vs ELT Engine)"
+        },
+        {
+          "id": "m12_s4",
+          "text": "AI Integration & Future Automated Analytics"
+        }
+      ]
+    },
+    {
+      "id": "mod13",
+      "text": "Module 13 – AI for Data Analysts",
+      "children": [
+        {
+          "id": "m13_s1",
+          "text": "Generative AI Fundamentals & LLM Co-Drivers"
+        },
+        {
+          "id": "m13_s2",
+          "text": "AI-Powered Analytics, Cleaning & Reporting"
+        },
+        {
+          "id": "m13_s3",
+          "text": "Prompt Engineering & Analytical Input Designs"
+        },
+        {
+          "id": "m13_s4",
+          "text": "Responsible AI, Hallucination Checks & Ethics"
+        }
+      ]
+    },
+    {
+      "id": "mod14",
+      "text": "Module 14 – Data Governance, Privacy & Ethics",
+      "children": [
+        {
+          "id": "m14_s1",
+          "text": "Data Governance, Stewardship & Quality Matrix"
+        },
+        {
+          "id": "m14_s2",
+          "text": "Data Security (Access Matrix, Cyber Essentials)"
+        },
+        {
+          "id": "m14_s3",
+          "text": "Data Privacy, Consent & Lifecycle Retention"
+        },
+        {
+          "id": "m14_s4",
+          "text": "Global Regulatory Infrastructure (GDPR, CCPA)"
+        },
+        {
+          "id": "m14_s5",
+          "text": "Data Ethics, Algorithmic Bias & Transparency"
+        }
+      ]
+    }
+  ]
+}
