@@ -111,7 +111,36 @@
             },
             {
               "id": "m1_s1_c5",
-              "text": "Local Systems vs Cloud Systems"
+              "text": "Local Systems vs Cloud Systems",
+              "blocks":
+              [                
+                {
+                  "type": "table",
+                  "title": "Local Systems vs Cloud Systems",
+                  "headers": [
+                    "Criteria",
+                    "Local System",
+                    "Clous System"],
+                  "rows": [
+                    ["Cost structure","High upfront cost (CapEx) — like buying filing cabinets/servers outright",	"Pay-as-you-go (OpEx) — like a flexible lease"],
+                    ["Ownership & control","You own and fully control the infrastructure",	"Provider owns it; you control access/usage"],
+                    ["Responsibility for upkeep","You handle backups, security, disaster recovery","Provider handles maintenance, patching, backups"]
+                  ]
+                },
+                {
+                  "type": "table",
+                  "title": "In Day-to-day",
+                  "headers": [
+                    "Criteria",
+                    "Local System",
+                    "Clous System"],
+                  "rows": [
+                    ["Accessibility","Typically restricted to the office",	"Accessible from anywhere, like a shared remote drive"],
+                    ["Capacity & growth","Limited by what you've bought - like running out of shelf space",	"Scales instantly - no need to \"buy more shelves\" in advance"],
+                    ["Dependency","Self-reliant, no internet dependency","Relies on internet access and provider reliability"]
+                  ]
+                }
+              ]
             }
           ]
         },
