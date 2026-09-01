@@ -74,7 +74,20 @@
             },
             {
               "id": "m1_s1_c3",
-              "text": "Operating Systems"
+              "text": "Operating Systems",
+               "summary": "An operating system (OS) is the core system software that acts as an intermediary between a computer user and the computer hardware, managing all hardware and software resources",
+                "blocks" :[
+                { "type": "list",
+                  "title": "Core Functions of an OS",
+                  "items": [
+                    "<strong>Process Management:</strong> Allocates CPU time to tasks using scheduling algorithms to ensure smooth multitasking",
+                    "<strong>Memory Managememnt:</strong>  Coordinates physical RAM by tracking which parts are in use and allocating space dynamically to active programs.",
+                    "<strong>File System Management:</strong>  Organizes and stores data on hard drives or SSDs, handling file creation, deletion, and access permissions",
+                    "<strong>Device Management:</strong> Uses specialized software drivers to translate communication between the OS and hardware peripherals like printers and keyboards",
+                    "<strong>User Interface (UI):</strong> Provides a environment for human interaction, ranging from text-based Command Line Interfaces (CLI) to Graphical User Interfaces (GUI"
+                  ]
+            }
+            ]
             },
             {
               "id": "m1_s1_c4",
