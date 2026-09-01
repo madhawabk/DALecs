@@ -74,20 +74,7 @@
             },
             {
               "id": "m1_s1_c3",
-              "text": "Operating Systems",
-               "summary": "An operating system (OS) is the core system software that acts as an intermediary between a computer user and the computer hardware, managing all hardware and software resources",
-                "blocks" :[
-                { "type": "list",
-                  "title": "Core Functions of an OS",
-                  "items": [
-                    "<strong>Process Management:</strong> Allocates CPU time to tasks using scheduling algorithms to ensure smooth multitasking",
-                    "<strong>Memory Managememnt:</strong>  Coordinates physical RAM by tracking which parts are in use and allocating space dynamically to active programs.",
-                    "<strong>File System Management:</strong>  Organizes and stores data on hard drives or SSDs, handling file creation, deletion, and access permissions",
-                    "<strong>Device Management:</strong> Uses specialized software drivers to translate communication between the OS and hardware peripherals like printers and keyboards",
-                    "<strong>User Interface (UI):</strong> Provides a environment for human interaction, ranging from text-based Command Line Interfaces (CLI) to Graphical User Interfaces (GUI"
-                  ]
-            }
-            ]
+              "text": "Operating Systems"
             },
             {
               "id": "m1_s1_c4",
@@ -111,401 +98,370 @@
             },
             {
               "id": "m1_s1_c5",
-              "text": "Local Systems vs Cloud Systems",
-              "blocks":
-              [                
+              "text": "Local Systems vs Cloud Systems"
+            }
+          ]
+        },
+        {
+          "id": "m1_s2",
+          "text": "Evolution of Technology",
+          "summary": "From the abacus to generative AI — how computing power evolved from room-sized machines to tools every business now runs on.",
+          "children": [
+            {
+              "id": "m1_s2_c1",
+              "text": "Abacus to Modern Computers",
+              "summary": "Computing progressed from manual counting tools through mechanical, then electronic, then digital machines — each stage making calculation faster and less dependent on human labour.",
+              "blocks": [
                 {
-                  "type": "table",
-                  "title": "Local Systems vs Cloud Systems",
-                  "headers": [
-                    "Criteria",
-                    "Local System",
-                    "Clous System"],
-                  "rows": [
-                    ["Cost structure","High upfront cost (CapEx) — like buying filing cabinets/servers outright",	"Pay-as-you-go (OpEx) — like a flexible lease"],
-                    ["Ownership & control","You own and fully control the infrastructure",	"Provider owns it; you control access/usage"],
-                    ["Responsibility for upkeep","You handle backups, security, disaster recovery","Provider handles maintenance, patching, backups"]
+                  "type": "text",
+                  "content": "Long before electricity, people used physical tools like the abacus to track quantities and perform arithmetic. Over centuries, mechanical calculators automated basic arithmetic, and by the mid-20th century, electronic computers replaced moving parts with circuits — making calculation thousands of times faster. Each leap didn't just speed things up; it changed what kinds of problems businesses could realistically solve."
+                },
+                {
+                  "type": "list",
+                  "title": "Key Milestones",
+                  "items": [
+                    "<strong>Abacus (c. 2000 BCE):</strong> One of the earliest tools for counting and basic arithmetic, still used in parts of the world today.",
+                    "<strong>Mechanical calculators (1600s–1800s):</strong> Devices like Pascal's calculator automated addition and subtraction using gears.",
+                    "<strong>First electronic computers (1940s):</strong> Machines like ENIAC used vacuum tubes to perform calculations electronically, filling entire rooms.",
+                    "<strong>Microprocessors (1970s):</strong> Shrinking a computer's core processing power onto a single chip made personal, affordable computers possible."
                   ]
+                }
+              ]
+            },
+            {
+              "id": "m1_s2_c2",
+              "text": "Mainframe Era",
+              "summary": "Mainframes were large, centralized computers that businesses accessed through terminals — the first computers organizations used to run core operations like payroll and banking.",
+              "blocks": [
+                {
+                  "type": "text",
+                  "content": "From the 1950s through the 1970s, computing meant one very large, very expensive machine housed in a dedicated room, shared by an entire organization. Employees didn't have their own computer — they connected to the mainframe through simple terminals that sent requests and displayed results. This era established computing as core business infrastructure, even though only large organizations could afford it."
+                },
+                {
+                  "type": "list",
+                  "title": "What Defined the Mainframe Era",
+                  "items": [
+                    "<strong>Centralized model:</strong> One powerful machine served hundreds of users simultaneously via terminals.",
+                    "<strong>Batch processing:</strong> Jobs (like a payroll run) were submitted and processed in scheduled batches, not instantly.",
+                    "<strong>High cost, high reliability:</strong> Only banks, insurers, airlines, and governments could typically justify the expense.",
+                    "<strong>Business use cases:</strong> Payroll, accounting ledgers, inventory, and early banking transaction systems."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1_s2_c3",
+              "text": "Personal Computing",
+              "summary": "The arrival of the personal computer moved processing power out of a shared central room and onto individual desks — and gave rise to the spreadsheet as a business tool.",
+              "blocks": [
+                {
+                  "type": "text",
+                  "content": "The launch of affordable personal computers in the late 1970s and early 1980s — including the IBM PC in 1981 — meant employees no longer had to share time on a single central machine. Software written for individual use, most notably early spreadsheet programs like VisiCalc and Lotus 1-2-3, put financial modelling and calculation directly into the hands of accountants and managers for the first time."
+                },
+                {
+                  "type": "list",
+                  "title": "Why This Shift Mattered for Business",
+                  "items": [
+                    "<strong>Decentralization:</strong> Computing power moved from a central IT room to individual desks across the organization.",
+                    "<strong>Birth of the spreadsheet:</strong> Financial planning, budgeting, and forecasting became something an individual could do directly, without IT support.",
+                    "<strong>Lower cost of entry:</strong> Small and mid-sized businesses could now afford computing power, not just large corporations."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1_s2_c4",
+              "text": "Internet Revolution",
+              "summary": "Connecting computers into networks turned isolated desktop tools into a global, always-on infrastructure for communication and data exchange.",
+              "blocks": [
+                {
+                  "type": "text",
+                  "content": "Through the 1990s, the internet connected previously isolated computers into a single global network. Email replaced much business correspondence, the World Wide Web made information instantly accessible, and e-commerce created entirely new ways for businesses to reach customers. For the first time, data and documents could move between organizations in seconds rather than days."
+                },
+                {
+                  "type": "list",
+                  "title": "Business Impact",
+                  "items": [
+                    "<strong>Real-time communication:</strong> Email and instant messaging replaced much postal and fax correspondence.",
+                    "<strong>Online transactions:</strong> E-commerce opened direct-to-customer sales channels with no physical storefront needed.",
+                    "<strong>Global reach:</strong> A business could serve customers and coordinate suppliers anywhere in the world."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1_s2_c5",
+              "text": "Cloud Computing",
+              "summary": "Cloud computing lets businesses rent computing power and storage over the internet instead of owning and maintaining physical servers.",
+              "blocks": [
+                {
+                  "type": "text",
+                  "content": "Rather than buying and maintaining physical servers on-site, cloud computing lets an organization rent computing power, storage, and software over the internet from providers like Amazon, Microsoft, or Google — paying only for what they use. This shifted IT spending from a large upfront capital cost to a flexible, ongoing operating expense, and made it possible for even small businesses to scale their computing needs up or down instantly."
                 },
                 {
                   "type": "table",
-                  "title": "In Day-to-day",
+                  "title": "On-Premises vs Cloud",
                   "headers": [
-                    "Criteria",
-                    "Local System",
-                    "Clous System"],
+                    "Aspect",
+                    "On-Premises (Owned)",
+                    "Cloud (Rented)"
+                  ],
                   "rows": [
-                    ["Accessibility","Typically restricted to the office",	"Accessible from anywhere, like a shared remote drive"],
-                    ["Capacity & growth","Limited by what you've bought - like running out of shelf space",	"Scales instantly - no need to \"buy more shelves\" in advance"],
-                    ["Dependency","Self-reliant, no internet dependency","Relies on internet access and provider reliability"]
+                    [
+                      "Upfront cost",
+                      "High — buy servers and hardware outright",
+                      "Low — pay-as-you-go pricing"
+                    ],
+                    [
+                      "Scalability",
+                      "Slow — requires buying more hardware",
+                      "Fast — capacity adjusts on demand"
+                    ],
+                    [
+                      "Maintenance",
+                      "Managed by the organization's own IT team",
+                      "Handled by the cloud provider"
+                    ],
+                    [
+                      "Cost classification",
+                      "Capital expenditure (CapEx)",
+                      "Operating expenditure (OpEx)"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1_s2_c6",
+              "text": "Artificial Intelligence Era",
+              "summary": "Computers have moved from following fixed, pre-written instructions to learning patterns from data — the shift behind today's forecasting tools, chatbots, and recommendation engines.",
+              "blocks": [
+                {
+                  "type": "text",
+                  "content": "Traditional software follows rules a programmer writes explicitly: if this happens, do that. Artificial Intelligence (AI), and the machine learning techniques behind most of it, instead learns patterns directly from historical data and uses those patterns to make predictions or decisions on new data. The recent acceleration in AI has been driven by two things arriving together: far larger datasets to learn from, and far cheaper computing power (often cloud-based) to process them."
+                },
+                {
+                  "type": "list",
+                  "title": "Where AI Shows Up in Business Today",
+                  "items": [
+                    "<strong>Fraud detection:</strong> Flagging unusual transaction patterns in real time.",
+                    "<strong>Demand forecasting:</strong> Predicting future sales or inventory needs from historical data.",
+                    "<strong>Chatbots and virtual assistants:</strong> Handling routine customer queries automatically.",
+                    "<strong>Generative AI tools:</strong> Drafting reports, summarizing documents, and writing code or formulas — covered later in this course."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1_s2_c7",
+              "text": "Emerging Technologies",
+              "summary": "Four fast-moving technology areas reshaping how businesses collect data, secure transactions, and compute — worth understanding even if you'll never build them yourself.",
+              "children": [
+                {
+                  "id": "m1_s2_c7_1",
+                  "text": "IoT",
+                  "summary": "The Internet of Things connects everyday physical objects — sensors, machines, vehicles — to the internet, so they continuously generate data businesses can analyze.",
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "content": "The Internet of Things (IoT) refers to physical devices — from warehouse sensors to delivery vehicles to wearable fitness trackers — that are connected to the internet and continuously collect and transmit data. Where earlier eras of computing relied on people manually entering data, IoT devices generate it automatically and constantly, often in far greater volume than any team could capture by hand."
+                    },
+                    {
+                      "type": "list",
+                      "title": "Business Examples",
+                      "items": [
+                        "<strong>Inventory sensors:</strong> Automatically tracking stock levels in a warehouse in real time.",
+                        "<strong>Fleet tracking:</strong> GPS and sensor data monitoring delivery vehicle location, fuel use, and condition.",
+                        "<strong>Wearable devices:</strong> Feeding data into corporate wellness or safety monitoring programs."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "m1_s2_c7_2",
+                  "text": "Blockchain",
+                  "summary": "Blockchain is a shared, tamper-resistant digital ledger that lets multiple parties trust the same record of a transaction without needing a central authority.",
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "content": "A blockchain is a digital record-keeping system shared across many computers, where each new entry is cryptographically linked to the one before it — making past records extremely difficult to alter without detection. This matters for business because it allows organizations that don't fully trust each other (suppliers, banks, auditors) to agree on a shared version of events without a single central party controlling the record."
+                    },
+                    {
+                      "type": "list",
+                      "title": "Business Relevance",
+                      "items": [
+                        "<strong>Supply chain traceability:</strong> Recording each step a product takes from raw material to shelf.",
+                        "<strong>Cross-border payments:</strong> Settling transactions between parties in different countries without relying on multiple intermediary banks.",
+                        "<strong>Audit trails:</strong> Creating records that are difficult to quietly alter after the fact — relevant to internal controls and assurance."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "m1_s2_c7_3",
+                  "text": "Generative AI",
+                  "summary": "Generative AI systems create new content — text, images, code — rather than only analyzing existing data, changing how analysts draft reports and explore information.",
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "content": "Most earlier AI systems were built to analyze or classify existing data — for example, flagging a transaction as likely fraudulent. Generative AI is different: it produces new content — writing text, generating images, or writing code — based on patterns learned from vast amounts of existing material. Tools built on this technology, including large language models, are increasingly used directly inside everyday business software."
+                    },
+                    {
+                      "type": "list",
+                      "title": "Emerging Use Cases",
+                      "items": [
+                        "<strong>Drafting first versions:</strong> Reports, emails, and summaries that a human then reviews and refines.",
+                        "<strong>Summarizing data:</strong> Turning a large dataset or document into a short, readable overview.",
+                        "<strong>Writing code and formulas:</strong> Generating a starting SQL query, Excel formula, or Python script from a plain-language description."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "m1_s2_c7_4",
+                  "text": "Quantum Computing Overview",
+                  "summary": "Quantum computing is an emerging approach that could eventually solve certain complex problems far faster than today's computers — still early-stage, but worth being aware of.",
+                  "blocks": [
+                    {
+                      "type": "text",
+                      "content": "Traditional computers process information as bits that are either 0 or 1. Quantum computers use a different physical approach that, in theory, allows them to explore many possibilities simultaneously — making them potentially far faster at specific types of problems, such as complex optimization or breaking certain forms of encryption. The technology is still experimental and not yet part of everyday business computing, but it's worth knowing about because of how it could eventually affect data security and complex forecasting problems."
+                    },
+                    {
+                      "type": "list",
+                      "title": "Why It's on the Radar, Not Yet in Use",
+                      "items": [
+                        "<strong>Still experimental:</strong> Current quantum computers are limited, expensive, and confined mostly to research labs.",
+                        "<strong>Long-term security implications:</strong> A sufficiently powerful quantum computer could eventually break some of today's encryption methods, which is why governments and large firms are watching this space closely.",
+                        "<strong>Potential future upside:</strong> Faster solutions to complex optimization problems, such as portfolio or logistics optimization."
+                      ]
+                    }
                   ]
                 }
               ]
             }
           ]
         },
-          [
+        {
+          "id": "m1_s3",
+          "text": "Modern Enterprise Landscape",
+          "summary": "The core software and infrastructure categories that run a modern organization's operations, data, and finances.",
+          "children": [
             {
-              "id": "m1_s2",
-              "text": "Evolution of Technology",
-              "children": [
+              "id": "m1_s3_c1",
+              "text": "Enterprise Applications",
+              "summary": "Enterprise applications are large-scale software systems that run core business functions — finance, HR, supply chain — across an entire organization rather than for a single individual.",
+              "blocks": [
                 {
-                  "id": "m1_s2_c1",
-                  "text": "Abacus to Modern Computers",
-                  "summary": "Computing progressed from manual counting tools through mechanical, then electronic, then digital machines — each stage making calculation faster and less dependent on human labour.",
-                  "blocks": [
-                    {
-                      "type": "text",
-                      "content": "Long before electricity, people used physical tools like the abacus to track quantities and perform arithmetic. Over centuries, mechanical calculators automated basic arithmetic, and by the mid-20th century, electronic computers replaced moving parts with circuits — making calculation thousands of times faster. Each leap didn't just speed things up; it changed what kinds of problems businesses could realistically solve."
-                    },
-                    {
-                      "type": "list",
-                      "title": "Key Milestones",
-                      "items": [
-                        "<strong>Abacus (c. 2000 BCE):</strong> One of the earliest tools for counting and basic arithmetic, still used in parts of the world today.",
-                        "<strong>Mechanical calculators (1600s–1800s):</strong> Devices like Pascal's calculator automated addition and subtraction using gears.",
-                        "<strong>First electronic computers (1940s):</strong> Machines like ENIAC used vacuum tubes to perform calculations electronically, filling entire rooms.",
-                        "<strong>Microprocessors (1970s):</strong> Shrinking a computer's core processing power onto a single chip made personal, affordable computers possible."
-                      ]
-                    }
-                  ]
+                  "type": "text",
+                  "content": "While personal computing gave individuals their own tools, enterprise applications are built to serve an entire organization at once, keeping data consistent across departments. Instead of separate spreadsheets for finance, HR, and inventory that quickly fall out of sync, an enterprise application keeps one shared version of the data that every department reads from and writes to."
                 },
                 {
-                  "id": "m1_s2_c2",
-                  "text": "Mainframe Era",
-                  "summary": "Mainframes were large, centralized computers that businesses accessed through terminals — the first computers organizations used to run core operations like payroll and banking.",
-                  "blocks": [
-                    {
-                      "type": "text",
-                      "content": "From the 1950s through the 1970s, computing meant one very large, very expensive machine housed in a dedicated room, shared by an entire organization. Employees didn't have their own computer — they connected to the mainframe through simple terminals that sent requests and displayed results. This era established computing as core business infrastructure, even though only large organizations could afford it."
-                    },
-                    {
-                      "type": "list",
-                      "title": "What Defined the Mainframe Era",
-                      "items": [
-                        "<strong>Centralized model:</strong> One powerful machine served hundreds of users simultaneously via terminals.",
-                        "<strong>Batch processing:</strong> Jobs (like a payroll run) were submitted and processed in scheduled batches, not instantly.",
-                        "<strong>High cost, high reliability:</strong> Only banks, insurers, airlines, and governments could typically justify the expense.",
-                        "<strong>Business use cases:</strong> Payroll, accounting ledgers, inventory, and early banking transaction systems."
-                      ]
-                    }
+                  "type": "list",
+                  "title": "Common Categories",
+                  "items": [
+                    "<strong>ERP (Enterprise Resource Planning):</strong> Integrates finance, procurement, and operations — covered in the next topic.",
+                    "<strong>CRM (Customer Relationship Management):</strong> Tracks customer interactions, sales pipelines, and service history.",
+                    "<strong>HRIS (Human Resource Information System):</strong> Manages employee records, payroll, and benefits."
                   ]
-                },
-                {
-                  "id": "m1_s2_c3",
-                  "text": "Personal Computing",
-                  "summary": "The arrival of the personal computer moved processing power out of a shared central room and onto individual desks — and gave rise to the spreadsheet as a business tool.",
-                  "blocks": [
-                    {
-                      "type": "text",
-                      "content": "The launch of affordable personal computers in the late 1970s and early 1980s — including the IBM PC in 1981 — meant employees no longer had to share time on a single central machine. Software written for individual use, most notably early spreadsheet programs like VisiCalc and Lotus 1-2-3, put financial modelling and calculation directly into the hands of accountants and managers for the first time."
-                    },
-                    {
-                      "type": "list",
-                      "title": "Why This Shift Mattered for Business",
-                      "items": [
-                        "<strong>Decentralization:</strong> Computing power moved from a central IT room to individual desks across the organization.",
-                        "<strong>Birth of the spreadsheet:</strong> Financial planning, budgeting, and forecasting became something an individual could do directly, without IT support.",
-                        "<strong>Lower cost of entry:</strong> Small and mid-sized businesses could now afford computing power, not just large corporations."
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "m1_s2_c4",
-                  "text": "Internet Revolution",
-                  "summary": "Connecting computers into networks turned isolated desktop tools into a global, always-on infrastructure for communication and data exchange.",
-                  "blocks": [
-                    {
-                      "type": "text",
-                      "content": "Through the 1990s, the internet connected previously isolated computers into a single global network. Email replaced much business correspondence, the World Wide Web made information instantly accessible, and e-commerce created entirely new ways for businesses to reach customers. For the first time, data and documents could move between organizations in seconds rather than days."
-                    },
-                    {
-                      "type": "list",
-                      "title": "Business Impact",
-                      "items": [
-                        "<strong>Real-time communication:</strong> Email and instant messaging replaced much postal and fax correspondence.",
-                        "<strong>Online transactions:</strong> E-commerce opened direct-to-customer sales channels with no physical storefront needed.",
-                        "<strong>Global reach:</strong> A business could serve customers and coordinate suppliers anywhere in the world."
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "m1_s2_c5",
-                  "text": "Cloud Computing",
-                  "summary": "Cloud computing lets businesses rent computing power and storage over the internet instead of owning and maintaining physical servers.",
-                  "blocks": [
-                    {
-                      "type": "text",
-                      "content": "Rather than buying and maintaining physical servers on-site, cloud computing lets an organization rent computing power, storage, and software over the internet from providers like Amazon, Microsoft, or Google — paying only for what they use. This shifted IT spending from a large upfront capital cost to a flexible, ongoing operating expense, and made it possible for even small businesses to scale their computing needs up or down instantly."
-                    },
-                    {
-                      "type": "table",
-                      "title": "On-Premises vs Cloud",
-                      "headers": [
-                        "Aspect",
-                        "On-Premises (Owned)",
-                        "Cloud (Rented)"
-                      ],
-                      "rows": [
-                        [
-                          "Upfront cost",
-                          "High — buy servers and hardware outright",
-                          "Low — pay-as-you-go pricing"
-                        ],
-                        [
-                          "Scalability",
-                          "Slow — requires buying more hardware",
-                          "Fast — capacity adjusts on demand"
-                        ],
-                        [
-                          "Maintenance",
-                          "Managed by the organization's own IT team",
-                          "Handled by the cloud provider"
-                        ],
-                        [
-                          "Cost classification",
-                          "Capital expenditure (CapEx)",
-                          "Operating expenditure (OpEx)"
-                        ]
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "m1_s2_c6",
-                  "text": "Artificial Intelligence Era",
-                  "summary": "Computers have moved from following fixed, pre-written instructions to learning patterns from data — the shift behind today's forecasting tools, chatbots, and recommendation engines.",
-                  "blocks": [
-                    {
-                      "type": "text",
-                      "content": "Traditional software follows rules a programmer writes explicitly: if this happens, do that. Artificial Intelligence (AI), and the machine learning techniques behind most of it, instead learns patterns directly from historical data and uses those patterns to make predictions or decisions on new data. The recent acceleration in AI has been driven by two things arriving together: far larger datasets to learn from, and far cheaper computing power (often cloud-based) to process them."
-                    },
-                    {
-                      "type": "list",
-                      "title": "Where AI Shows Up in Business Today",
-                      "items": [
-                        "<strong>Fraud detection:</strong> Flagging unusual transaction patterns in real time.",
-                        "<strong>Demand forecasting:</strong> Predicting future sales or inventory needs from historical data.",
-                        "<strong>Chatbots and virtual assistants:</strong> Handling routine customer queries automatically.",
-                        "<strong>Generative AI tools:</strong> Drafting reports, summarizing documents, and writing code or formulas — covered later in this course."
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "m1_s2_c7",
-                  "text": "Emerging Technologies",
-                  "children": [
-                    {
-                      "id": "m1_s2_c7_1",
-                      "text": "IoT",
-                      "summary": "The Internet of Things connects everyday physical objects — sensors, machines, vehicles — to the internet, so they continuously generate data businesses can analyze.",
-                      "blocks": [
-                        {
-                          "type": "text",
-                          "content": "The Internet of Things (IoT) refers to physical devices — from warehouse sensors to delivery vehicles to wearable fitness trackers — that are connected to the internet and continuously collect and transmit data. Where earlier eras of computing relied on people manually entering data, IoT devices generate it automatically and constantly, often in far greater volume than any team could capture by hand."
-                        },
-                        {
-                          "type": "list",
-                          "title": "Business Examples",
-                          "items": [
-                            "<strong>Inventory sensors:</strong> Automatically tracking stock levels in a warehouse in real time.",
-                            "<strong>Fleet tracking:</strong> GPS and sensor data monitoring delivery vehicle location, fuel use, and condition.",
-                            "<strong>Wearable devices:</strong> Feeding data into corporate wellness or safety monitoring programs."
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "m1_s2_c7_2",
-                      "text": "Blockchain",
-                      "summary": "Blockchain is a shared, tamper-resistant digital ledger that lets multiple parties trust the same record of a transaction without needing a central authority.",
-                      "blocks": [
-                        {
-                          "type": "text",
-                          "content": "A blockchain is a digital record-keeping system shared across many computers, where each new entry is cryptographically linked to the one before it — making past records extremely difficult to alter without detection. This matters for business because it allows organizations that don't fully trust each other (suppliers, banks, auditors) to agree on a shared version of events without a single central party controlling the record."
-                        },
-                        {
-                          "type": "list",
-                          "title": "Business Relevance",
-                          "items": [
-                            "<strong>Supply chain traceability:</strong> Recording each step a product takes from raw material to shelf.",
-                            "<strong>Cross-border payments:</strong> Settling transactions between parties in different countries without relying on multiple intermediary banks.",
-                            "<strong>Audit trails:</strong> Creating records that are difficult to quietly alter after the fact — relevant to internal controls and assurance."
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "m1_s2_c7_3",
-                      "text": "Generative AI",
-                      "summary": "Generative AI systems create new content — text, images, code — rather than only analyzing existing data, changing how analysts draft reports and explore information.",
-                      "blocks": [
-                        {
-                          "type": "text",
-                          "content": "Most earlier AI systems were built to analyze or classify existing data — for example, flagging a transaction as likely fraudulent. Generative AI is different: it produces new content — writing text, generating images, or writing code — based on patterns learned from vast amounts of existing material. Tools built on this technology, including large language models, are increasingly used directly inside everyday business software."
-                        },
-                        {
-                          "type": "list",
-                          "title": "Emerging Use Cases",
-                          "items": [
-                            "<strong>Drafting first versions:</strong> Reports, emails, and summaries that a human then reviews and refines.",
-                            "<strong>Summarizing data:</strong> Turning a large dataset or document into a short, readable overview.",
-                            "<strong>Writing code and formulas:</strong> Generating a starting SQL query, Excel formula, or Python script from a plain-language description."
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "m1_s2_c7_4",
-                      "text": "Quantum Computing Overview",
-                      "summary": "Quantum computing is an emerging approach that could eventually solve certain complex problems far faster than today's computers — still early-stage, but worth being aware of.",
-                      "blocks": [
-                        {
-                          "type": "text",
-                          "content": "Traditional computers process information as bits that are either 0 or 1. Quantum computers use a different physical approach that, in theory, allows them to explore many possibilities simultaneously — making them potentially far faster at specific types of problems, such as complex optimization or breaking certain forms of encryption. The technology is still experimental and not yet part of everyday business computing, but it's worth knowing about because of how it could eventually affect data security and complex forecasting problems."
-                        },
-                        {
-                          "type": "list",
-                          "title": "Why It's on the Radar, Not Yet in Use",
-                          "items": [
-                            "<strong>Still experimental:</strong> Current quantum computers are limited, expensive, and confined mostly to research labs.",
-                            "<strong>Long-term security implications:</strong> A sufficiently powerful quantum computer could eventually break some of today's encryption methods, which is why governments and large firms are watching this space closely.",
-                            "<strong>Potential future upside:</strong> Faster solutions to complex optimization problems, such as portfolio or logistics optimization."
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "summary": "Four fast-moving technology areas reshaping how businesses collect data, secure transactions, and compute — worth understanding even if you'll never build them yourself."
                 }
-              ],
-              "summary": "From the abacus to generative AI — how computing power evolved from room-sized machines to tools every business now runs on."
+              ]
             },
             {
-              "id": "m1_s3",
-              "text": "Modern Enterprise Landscape",
-              "children": [
+              "id": "m1_s3_c2",
+              "text": "ERP Systems (SAP, Oracle, MS Dynamics)",
+              "summary": "ERP systems integrate finance, procurement, inventory, and HR into one connected system of record, replacing disconnected departmental spreadsheets.",
+              "blocks": [
                 {
-                  "id": "m1_s3_c1",
-                  "text": "Enterprise Applications",
-                  "summary": "Enterprise applications are large-scale software systems that run core business functions — finance, HR, supply chain — across an entire organization rather than for a single individual.",
-                  "blocks": [
-                    {
-                      "type": "text",
-                      "content": "While personal computing gave individuals their own tools, enterprise applications are built to serve an entire organization at once, keeping data consistent across departments. Instead of separate spreadsheets for finance, HR, and inventory that quickly fall out of sync, an enterprise application keeps one shared version of the data that every department reads from and writes to."
-                    },
-                    {
-                      "type": "list",
-                      "title": "Common Categories",
-                      "items": [
-                        "<strong>ERP (Enterprise Resource Planning):</strong> Integrates finance, procurement, and operations — covered in the next topic.",
-                        "<strong>CRM (Customer Relationship Management):</strong> Tracks customer interactions, sales pipelines, and service history.",
-                        "<strong>HRIS (Human Resource Information System):</strong> Manages employee records, payroll, and benefits."
-                      ]
-                    }
-                  ]
+                  "type": "text",
+                  "content": "Enterprise Resource Planning (ERP) systems are the backbone of most mid-to-large organizations' operations. Rather than finance, procurement, and inventory each keeping separate records, an ERP system ties these functions together so that, for example, a purchase order automatically updates inventory and flows through to the accounting ledger — without anyone re-entering the same data twice."
                 },
                 {
-                  "id": "m1_s3_c2",
-                  "text": "ERP Systems (SAP, Oracle, MS Dynamics)",
-                  "summary": "ERP systems integrate finance, procurement, inventory, and HR into one connected system of record, replacing disconnected departmental spreadsheets.",
-                  "blocks": [
-                    {
-                      "type": "text",
-                      "content": "Enterprise Resource Planning (ERP) systems are the backbone of most mid-to-large organizations' operations. Rather than finance, procurement, and inventory each keeping separate records, an ERP system ties these functions together so that, for example, a purchase order automatically updates inventory and flows through to the accounting ledger — without anyone re-entering the same data twice."
-                    },
-                    {
-                      "type": "table",
-                      "title": "Major ERP Platforms",
-                      "headers": [
-                        "Platform",
-                        "Common Fit"
-                      ],
-                      "rows": [
-                        [
-                          "SAP",
-                          "Large multinational enterprises with complex, global operations"
-                        ],
-                        [
-                          "Oracle",
-                          "Large enterprises, especially those needing deep financial management"
-                        ],
-                        [
-                          "Microsoft Dynamics",
-                          "Mid-sized businesses already using the Microsoft ecosystem"
-                        ]
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "m1_s3_c3",
-                  "text": "Databases",
-                  "summary": "Databases are the organized digital storage systems that hold nearly all of a business's transactional and operational data, from sales records to customer details.",
-                  "blocks": [
-                    {
-                      "type": "text",
-                      "content": "A database is a structured system for storing, organizing, and retrieving data reliably — the foundation underneath almost every business application, including the ERP and CRM systems already covered. Rather than data sitting in scattered files, a database keeps it organized in tables so it can be searched, updated, and reported on consistently and by many users at once. Module 8 (Database Systems) and Module 9 (SQL) return to this topic in much greater depth."
-                    },
-                    {
-                      "type": "list",
-                      "title": "What to Know at This Stage",
-                      "items": [
-                        "<strong>Structured storage:</strong> Data is organized into tables of rows and columns, similar in shape to a spreadsheet but built to handle far larger volumes reliably.",
-                        "<strong>Single source of truth:</strong> Every system that needs the data — finance, sales, operations — reads from the same underlying database.",
-                        "<strong>Foundation for analytics:</strong> Nearly every report, dashboard, and analysis in this course ultimately traces back to data sitting in a database."
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "m1_s3_c4",
-                  "text": "Servers and Infrastructure",
-                  "summary": "Servers are the physical or virtual machines that run applications and store data behind the scenes, whether housed on-site or in a remote data center.",
-                  "blocks": [
-                    {
-                      "type": "text",
-                      "content": "A server is simply a computer dedicated to providing a service to other computers — hosting a website, running a database, or storing shared files. Historically, businesses housed their own servers on-site in a dedicated server room. Today, many of those same workloads run instead on servers inside a cloud provider's data center, accessed remotely over the internet."
-                    },
-                    {
-                      "type": "list",
-                      "title": "Where Servers Live Today",
-                      "items": [
-                        "<strong>On-premises:</strong> Physical servers owned and maintained in the organization's own building.",
-                        "<strong>Data center hosting:</strong> Physical servers owned by a provider but dedicated to one organization's use.",
-                        "<strong>Virtual servers (cloud):</strong> Software-defined servers running on shared cloud infrastructure, scaled up or down on demand."
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "m1_s3_c5",
-                  "text": "Cloud Platforms",
-                  "summary": "Cloud platforms are the major providers — AWS, Microsoft Azure, Google Cloud — that rent out computing infrastructure so businesses don't have to own physical servers.",
-                  "blocks": [
-                    {
-                      "type": "text",
-                      "content": "A small number of large providers now supply most of the world's cloud infrastructure, renting out computing power, storage, and pre-built services (including AI tools) that businesses would otherwise need to build and maintain themselves. Choosing a cloud platform is now a routine business decision, similar in weight to choosing an ERP vendor."
-                    },
-                    {
-                      "type": "list",
-                      "title": "The Three Major Providers",
-                      "items": [
-                        "<strong>Amazon Web Services (AWS):</strong> The largest provider by market share, widely used across industries.",
-                        "<strong>Microsoft Azure:</strong> Popular with organizations already using Microsoft 365 and Windows-based systems.",
-                        "<strong>Google Cloud Platform (GCP):</strong> Often chosen for its strength in data analytics and machine learning tools."
-                      ]
-                    }
+                  "type": "table",
+                  "title": "Major ERP Platforms",
+                  "headers": [
+                    "Platform",
+                    "Common Fit"
+                  ],
+                  "rows": [
+                    [
+                      "SAP",
+                      "Large multinational enterprises with complex, global operations"
+                    ],
+                    [
+                      "Oracle",
+                      "Large enterprises, especially those needing deep financial management"
+                    ],
+                    [
+                      "Microsoft Dynamics",
+                      "Mid-sized businesses already using the Microsoft ecosystem"
+                    ]
                   ]
                 }
-              ],
-              "summary": "The core software and infrastructure categories that run a modern organization's operations, data, and finances."
+              ]
+            },
+            {
+              "id": "m1_s3_c3",
+              "text": "Databases",
+              "summary": "Databases are the organized digital storage systems that hold nearly all of a business's transactional and operational data, from sales records to customer details.",
+              "blocks": [
+                {
+                  "type": "text",
+                  "content": "A database is a structured system for storing, organizing, and retrieving data reliably — the foundation underneath almost every business application, including the ERP and CRM systems already covered. Rather than data sitting in scattered files, a database keeps it organized in tables so it can be searched, updated, and reported on consistently and by many users at once. Module 8 (Database Systems) and Module 9 (SQL) return to this topic in much greater depth."
+                },
+                {
+                  "type": "list",
+                  "title": "What to Know at This Stage",
+                  "items": [
+                    "<strong>Structured storage:</strong> Data is organized into tables of rows and columns, similar in shape to a spreadsheet but built to handle far larger volumes reliably.",
+                    "<strong>Single source of truth:</strong> Every system that needs the data — finance, sales, operations — reads from the same underlying database.",
+                    "<strong>Foundation for analytics:</strong> Nearly every report, dashboard, and analysis in this course ultimately traces back to data sitting in a database."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1_s3_c4",
+              "text": "Servers and Infrastructure",
+              "summary": "Servers are the physical or virtual machines that run applications and store data behind the scenes, whether housed on-site or in a remote data center.",
+              "blocks": [
+                {
+                  "type": "text",
+                  "content": "A server is simply a computer dedicated to providing a service to other computers — hosting a website, running a database, or storing shared files. Historically, businesses housed their own servers on-site in a dedicated server room. Today, many of those same workloads run instead on servers inside a cloud provider's data center, accessed remotely over the internet."
+                },
+                {
+                  "type": "list",
+                  "title": "Where Servers Live Today",
+                  "items": [
+                    "<strong>On-premises:</strong> Physical servers owned and maintained in the organization's own building.",
+                    "<strong>Data center hosting:</strong> Physical servers owned by a provider but dedicated to one organization's use.",
+                    "<strong>Virtual servers (cloud):</strong> Software-defined servers running on shared cloud infrastructure, scaled up or down on demand."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1_s3_c5",
+              "text": "Cloud Platforms",
+              "summary": "Cloud platforms are the major providers — AWS, Microsoft Azure, Google Cloud — that rent out computing infrastructure so businesses don't have to own physical servers.",
+              "blocks": [
+                {
+                  "type": "text",
+                  "content": "A small number of large providers now supply most of the world's cloud infrastructure, renting out computing power, storage, and pre-built services (including AI tools) that businesses would otherwise need to build and maintain themselves. Choosing a cloud platform is now a routine business decision, similar in weight to choosing an ERP vendor."
+                },
+                {
+                  "type": "list",
+                  "title": "The Three Major Providers",
+                  "items": [
+                    "<strong>Amazon Web Services (AWS):</strong> The largest provider by market share, widely used across industries.",
+                    "<strong>Microsoft Azure:</strong> Popular with organizations already using Microsoft 365 and Windows-based systems.",
+                    "<strong>Google Cloud Platform (GCP):</strong> Often chosen for its strength in data analytics and machine learning tools."
+                  ]
+                }
+              ]
             }
           ]
-                
+        }
+      ]
     },
     {
       "id": "mod2",
