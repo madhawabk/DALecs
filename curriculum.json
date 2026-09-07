@@ -1573,9 +1573,13 @@
               "type": "list",
               "title": "Database Objects",
               "items": [
-                "<strong>Table:</strong> Basic unit of storage; composed of rows and columns.",
+                "<strong>Table:</strong> Basic unit of storage; composed of rows and columns."
                 "<strong>Primary key:</strong> A unique identifier for each row in a table.",
-                "<strong>Foreign key:</strong> A field linking to a row in another table, connecting related data without duplicating it."
+                "<strong>Foreign key:</strong> A field linking to a row in another table, connecting related data without duplicating it.",
+                "<strong>View:</strong> Logically represents subsets of data from one or more tables.",
+                "<strong>Indexes:</strong> Improves the performance of some queries.",
+                "<strong>Users:</strong>  It establishes authentication (who you are, usually via a password) and authorization (what you are allowed to do via privileges).",
+                "<strong>Schema:</strong> A logical container or namespace inside a database used to group related objects (like tables, views, and indexes)."
               ]
             }
           ]
