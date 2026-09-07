@@ -1573,7 +1573,7 @@
               "type": "list",
               "title": "Database Objects",
               "items": [
-                "<strong>Table:</strong> Basic unit of storage; composed of rows and columns",
+                "<strong>Table:</strong> Basic unit of storage; composed of rows and columns.",
                 "<strong>Primary key:</strong> A unique identifier for each row in a table.",
                 "<strong>Foreign key:</strong> A field linking to a row in another table, connecting related data without duplicating it."
               ]
@@ -1590,10 +1590,12 @@
               "title": "Core Concepts",
               "items": [
                 "<strong>Table:</strong> A grid of rows and columns holding one type of data, like Customers or Orders.",
-                "<strong>View:</strong>  A virtual table based on a SQL query that shows data from one or more base tables without storing its own copy.",
-                "<strong>Schema</strong> a logical container or namespace inside a database used to group related objects (like tables, views, and indexes)",
-               "<strong>Users:</strong> It establishes authentication (who you are, usually via a password) and authorization (what you are allowed to do via privileges).",
-                "<strong>Keys:</strong>","<strong>Sequence</strong>","<strong>Index</strong>",
+                "<strong>View:</strong> A virtual table based on a SQL query that shows data from one or more base tables without storing its own copy.",
+                "<strong>Schema:</strong> A logical container or namespace inside a database used to group related objects, like tables, views, and indexes.",
+                "<strong>Users:</strong> Establish authentication (who you are, usually via a password) and authorization (what you're allowed to do, via privileges).",
+                "<strong>Keys:</strong> Fields that uniquely identify each row (primary keys) or link to a row in another table (foreign keys).",
+                "<strong>Sequence:</strong> A database object that automatically generates a sequential series of numbers, often used to assign unique ID values.",
+                "<strong>Index:</strong> A structure that speeds up data retrieval by letting the database find rows without scanning the entire table."
               ]
             }
           ]
