@@ -1563,11 +1563,20 @@
         {
           "id": "m8_s1",
           "text": "Introduction & Database Concepts",
-          "summary": "A database is an organized system for storing and retrieving data reliably — the foundation for nearly every business application you use.",
+          "summary": "A database is an organized collection of data, structured so it can be easily accessed, managed, and updated.",
           "blocks": [
             {
               "type": "text",
               "content": "Behind almost every business system — your ERP, your bank's app, an e-commerce site — sits a database, quietly storing and organizing the data that system depends on. Understanding databases is what makes SQL, covered next, make sense."
+            },
+            {
+              "type": "list",
+              "title": "Database Objects",
+              "items": [
+                "<strong>Table:</strong> Basic unit of storage; composed of rows and columns",
+                "<strong>Primary key:</strong> A unique identifier for each row in a table.",
+                "<strong>Foreign key:</strong> A field linking to a row in another table, connecting related data without duplicating it."
+              ]
             }
           ]
         },
@@ -1581,8 +1590,10 @@
               "title": "Core Concepts",
               "items": [
                 "<strong>Table:</strong> A grid of rows and columns holding one type of data, like Customers or Orders.",
-                "<strong>Primary key:</strong> A unique identifier for each row in a table.",
-                "<strong>Foreign key:</strong> A field linking to a row in another table, connecting related data without duplicating it."
+                "<strong>View:</strong>  A virtual table based on a SQL query that shows data from one or more base tables without storing its own copy.",
+                "<strong>Schema</strong> a logical container or namespace inside a database used to group related objects (like tables, views, and indexes)",
+               "<strong>Users:</strong> It establishes authentication (who you are, usually via a password) and authorization (what you are allowed to do via privileges).",
+                "<strong>Keys:</strong>","<strong>Sequence</strong>","<strong>Index</strong>",
               ]
             }
           ]
