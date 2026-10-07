@@ -382,6 +382,39 @@ button { font-family: var(--font-future); }
   border-radius: 16px; overflow: hidden auto;
   box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
+
+.code-block {
+  position: relative;
+  width: 100%;
+  margin-top: 6px;
+  background: rgba(3, 4, 10, 0.9);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  overflow-x: auto;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+.code-block pre {
+  margin: 0;
+  padding: 20px 18px;
+  overflow-x: auto;
+}
+.code-block code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.86rem;
+  line-height: 1.6;
+  color: var(--text-neon-glow);
+  white-space: pre;
+}
+.code-lang-tag {
+  position: absolute;
+  top: 10px; right: 14px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-neon-cyan);
+  opacity: 0.7;
+}
 table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
 th {
   color: #ffffff; background: rgba(255, 255, 255, 0.05);

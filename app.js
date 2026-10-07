@@ -408,6 +408,8 @@ function paginateLeaf(node) {
       blockWeight += 200;
       (block.headers || []).forEach(h => blockWeight += h.length);
       (block.rows || []).forEach(r => r.forEach(cell => blockWeight += String(cell).length));
+    } else if (block.type === 'code') {
+      blockWeight += (block.content || '').length + 60;
     }
 
     if (weight + blockWeight > MAX_CHAR_CEILING && currentPageBlocks.length > 0) {
@@ -509,6 +511,21 @@ function renderCurrentLeafPage(useTransition = true) {
           bRows += '</tbody>';
           table.innerHTML = hRow + bRows;
           wrapper.appendChild(table);
+          blockDiv.appendChild(wrapper);
+        } else if (block.type === 'code') {
+          const wrapper = document.createElement('div');
+          wrapper.className = 'code-block';
+          if (block.language) {
+            const langTag = document.createElement('span');
+            langTag.className = 'code-lang-tag';
+            langTag.textContent = block.language;
+            wrapper.appendChild(langTag);
+          }
+          const pre = document.createElement('pre');
+          const codeEl = document.createElement('code');
+          codeEl.textContent = block.content;
+          pre.appendChild(codeEl);
+          wrapper.appendChild(pre);
           blockDiv.appendChild(wrapper);
         }
 
