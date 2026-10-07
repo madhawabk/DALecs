@@ -13,19 +13,19 @@
             {
               "id": "m1_s1_c1",
               "text": "What is Computing?",
-              "summary": "Computing is the systematic use of computers and algorithms to process information — turning raw inputs into useful outputs through a defined set of steps.",
+              "summary": "Computing is the systematic use of computers and algorithms to process information, turning raw inputs into useful outputs through a defined set of steps.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "At its core, computing is the process of using algorithms — step-by-step instructions — to take in data, process it, and produce a result. This applies whether you're running a formula in Excel, querying a database, or training a machine learning model. Every computing task, no matter how advanced, breaks down into this same input-process-output pattern."
+                  "content": "At its core, computing means using algorithms, step-by-step instructions, to take in data, process it, and produce a result. That's true whether you're running a formula in Excel, querying a database, or training a machine learning model. Every computing task, no matter how advanced, breaks down into this same input-process-output pattern."
                 },
                 {
                   "type": "list",
                   "title": "Why This Matters for Analytics",
                   "items": [
-                    "<strong>Input:</strong> Raw data — transaction records, survey responses, sensor readings.",
-                    "<strong>Process:</strong> The logic applied — a pivot table, a SQL query, a statistical model.",
-                    "<strong>Output:</strong> Decision-ready information — a report, a dashboard, a forecast."
+                    "<strong>Input:</strong> Raw data, transaction records, survey responses, sensor readings.",
+                    "<strong>Process:</strong> The logic applied, a pivot table, a SQL query, a statistical model.",
+                    "<strong>Output:</strong> Decision-ready information, a report, a dashboard, a forecast."
                   ]
                 }
               ]
@@ -33,11 +33,11 @@
             {
               "id": "m1_s1_c2",
               "text": "Hardware vs Software",
-              "summary": "Hardware is the physical machinery; software is the set of instructions that tells that machinery what to do. Analytics work depends on both working together.",
+              "summary": "Hardware is the physical machinery; software is the set of instructions that tells that machinery what to do. Analytics work needs both working together.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Hardware refers to the physical components of a computing system — processors, memory, storage, and network devices. Software is the set of instructions (programs) that run on that hardware to perform tasks. Neither is useful without the other: hardware provides the capacity to compute, while software directs what gets computed."
+                  "content": "Hardware is the physical part of a computing system: processors, memory, storage, network devices. Software is the set of instructions, the programs, that run on that hardware to perform tasks. Neither one is useful on its own. Hardware provides the capacity to compute, while software directs what actually gets computed."
                 },
                 {
                   "type": "table",
@@ -75,11 +75,11 @@
             {
               "id": "m1_s1_c3",
               "text": "Operating Systems",
-              "summary": "The operating system is the software layer that manages a computer's hardware and lets every other program run — Windows, macOS, and Linux are the three you'll encounter most.",
+              "summary": "The operating system is the software layer that manages a computer's hardware and lets every other program run. Windows, macOS, and Linux are the three you'll run into most.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Every piece of software you use — Excel, a web browser, Python — runs on top of an operating system (OS), which manages the computer's memory, processing power, storage, and connected devices so applications don't have to handle that complexity themselves."
+                  "content": "Every piece of software you use, Excel, a browser, Python, runs on top of an operating system (OS). It manages memory, processing power, storage, and connected devices so applications don't have to deal with that complexity themselves."
                 },
                 {
                   "type": "list",
@@ -95,19 +95,19 @@
             {
               "id": "m1_s1_c4",
               "text": "GUI vs CLI",
-              "summary": "GUIs let you interact with software visually using clicks and menus; CLIs let you interact by typing commands. Analytics increasingly draws on both.",
+              "summary": "GUIs let you interact with software visually, using clicks and menus. CLIs let you interact by typing commands. Analytics leans on both.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "A Graphical User Interface (GUI) lets you interact with software visually — think Excel's ribbon menus or Power BI's drag-and-drop canvas. A Command Line Interface (CLI) lets you interact by typing text commands — the way you'd run a Python script or a SQL query. GUIs are easier to learn; CLIs are faster to scale and automate."
+                  "content": "A Graphical User Interface (GUI) lets you interact with software visually, think Excel's ribbon menus or Power BI's drag-and-drop canvas. A Command Line Interface (CLI) means typing text commands instead, the way you'd run a Python script or a SQL query. GUIs are easier to pick up; CLIs scale and automate faster."
                 },
                 {
                   "type": "list",
                   "title": "Where You'll See Each",
                   "items": [
-                    "<strong>GUI examples:</strong> Excel, Power BI, Tableau — point-and-click analytics tools.",
+                    "<strong>GUI examples:</strong> Excel, Power BI, Tableau, point-and-click analytics tools.",
                     "<strong>CLI examples:</strong> Running a Python script, querying a database via SQL.",
-                    "<strong>The trend:</strong> As you progress from Excel toward Python and SQL in this course, you'll move from GUI-first to CLI-comfortable workflows."
+                    "<strong>The trend:</strong> As you move from Excel toward Python and SQL in this course, you'll shift from GUI-first to CLI-comfortable work."
                   ]
                 }
               ]
@@ -115,11 +115,11 @@
             {
               "id": "m1_s1_c5",
               "text": "Local Systems vs Cloud Systems",
-              "summary": "Local systems run entirely on the device in front of you; cloud systems run on someone else's servers and are accessed over the internet — most analytics tools today blend both.",
+              "summary": "Local systems run entirely on the device in front of you. Cloud systems run on someone else's servers and are reached over the internet. Most analytics tools today blend both.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "A local system stores and processes data on your own machine, giving you full control and no dependence on an internet connection. A cloud system stores and processes data on remote servers owned by a provider like Microsoft or Amazon, accessed over the internet — trading some control for accessibility, scalability, and easier collaboration."
+                  "content": "A local system stores and processes data on your own machine. You get full control and no dependence on an internet connection. A cloud system stores and processes data on remote servers owned by a provider like Microsoft or Amazon, accessed over the internet, trading some control for accessibility, scalability, and easier collaboration."
                 },
                 {
                   "type": "table",
@@ -159,24 +159,24 @@
         {
           "id": "m1_s2",
           "text": "Evolution of Technology",
-          "summary": "From the abacus to generative AI — how computing power evolved from room-sized machines to tools every business now runs on.",
+          "summary": "From the abacus to generative AI: how computing power evolved from room-sized machines into tools every business now runs on.",
           "children": [
             {
               "id": "m1_s2_c1",
               "text": "Abacus to Modern Computers",
-              "summary": "Computing progressed from manual counting tools through mechanical, then electronic, then digital machines — each stage making calculation faster and less dependent on human labour.",
+              "summary": "Computing moved from manual counting tools through mechanical, then electronic, then digital machines, with each stage making calculation faster and less dependent on human labour.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Long before electricity, people used physical tools like the abacus to track quantities and perform arithmetic. Over centuries, mechanical calculators automated basic arithmetic, and by the mid-20th century, electronic computers replaced moving parts with circuits — making calculation thousands of times faster. Each leap didn't just speed things up; it changed what kinds of problems businesses could realistically solve."
+                  "content": "Long before electricity, people used physical tools like the abacus to track quantities and do arithmetic. Over centuries, mechanical calculators automated basic arithmetic. By the mid-20th century, electronic computers replaced moving parts with circuits, making calculation thousands of times faster. Each leap didn't just speed things up; it changed what kinds of problems businesses could realistically solve."
                 },
                 {
                   "type": "list",
                   "title": "Key Milestones",
                   "items": [
-                    "<strong>Abacus (c. 2000 BCE):</strong> One of the earliest tools for counting and basic arithmetic, still used in parts of the world today.",
-                    "<strong>Mechanical calculators (1600s–1800s):</strong> Devices like Pascal's calculator automated addition and subtraction using gears.",
-                    "<strong>First electronic computers (1940s):</strong> Machines like ENIAC used vacuum tubes to perform calculations electronically, filling entire rooms.",
+                    "<strong>Abacus (c. 2000 BCE):</strong> One of the earliest counting tools, still used in parts of the world today.",
+                    "<strong>Mechanical calculators (1600s to 1800s):</strong> Devices like Pascal's calculator automated addition and subtraction using gears.",
+                    "<strong>First electronic computers (1940s):</strong> Machines like ENIAC used vacuum tubes to calculate electronically, filling entire rooms.",
                     "<strong>Microprocessors (1970s):</strong> Shrinking a computer's core processing power onto a single chip made personal, affordable computers possible."
                   ]
                 }
@@ -185,20 +185,20 @@
             {
               "id": "m1_s2_c2",
               "text": "Mainframe Era",
-              "summary": "Mainframes were large, centralized computers that businesses accessed through terminals — the first computers organizations used to run core operations like payroll and banking.",
+              "summary": "Mainframes were large, centralized computers that businesses accessed through terminals, the first computers organizations used to run core operations like payroll and banking.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "From the 1950s through the 1970s, computing meant one very large, very expensive machine housed in a dedicated room, shared by an entire organization. Employees didn't have their own computer — they connected to the mainframe through simple terminals that sent requests and displayed results. This era established computing as core business infrastructure, even though only large organizations could afford it."
+                  "content": "From the 1950s through the 1970s, computing meant one very large, very expensive machine housed in a dedicated room, shared by an entire organization. Employees didn't have their own computer. They connected to the mainframe through simple terminals that sent requests and displayed results. This era made computing core business infrastructure, even though only large organizations could afford it."
                 },
                 {
                   "type": "list",
                   "title": "What Defined the Mainframe Era",
                   "items": [
-                    "<strong>Centralized model:</strong> One powerful machine served hundreds of users simultaneously via terminals.",
-                    "<strong>Batch processing:</strong> Jobs (like a payroll run) were submitted and processed in scheduled batches, not instantly.",
-                    "<strong>High cost, high reliability:</strong> Only banks, insurers, airlines, and governments could typically justify the expense.",
-                    "<strong>Business use cases:</strong> Payroll, accounting ledgers, inventory, and early banking transaction systems."
+                    "<strong>Centralized model:</strong> One powerful machine served hundreds of users at once through terminals.",
+                    "<strong>Batch processing:</strong> Jobs like a payroll run were submitted and processed in scheduled batches, not instantly.",
+                    "<strong>High cost, high reliability:</strong> Usually only banks, insurers, airlines, and governments could justify the expense.",
+                    "<strong>Business use cases:</strong> Payroll, accounting ledgers, inventory, early banking transaction systems."
                   ]
                 }
               ]
@@ -206,11 +206,11 @@
             {
               "id": "m1_s2_c3",
               "text": "Personal Computing",
-              "summary": "The arrival of the personal computer moved processing power out of a shared central room and onto individual desks — and gave rise to the spreadsheet as a business tool.",
+              "summary": "The personal computer moved processing power out of a shared central room and onto individual desks, and gave rise to the spreadsheet as a business tool.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "The launch of affordable personal computers in the late 1970s and early 1980s — including the IBM PC in 1981 — meant employees no longer had to share time on a single central machine. Software written for individual use, most notably early spreadsheet programs like VisiCalc and Lotus 1-2-3, put financial modelling and calculation directly into the hands of accountants and managers for the first time."
+                  "content": "Affordable personal computers arrived in the late 1970s and early 1980s, including the IBM PC in 1981, so employees no longer had to share time on one central machine. Software built for individual use, most notably early spreadsheet programs like VisiCalc and Lotus 1-2-3, put financial modelling and calculation directly into accountants' and managers' hands for the first time."
                 },
                 {
                   "type": "list",
@@ -218,7 +218,7 @@
                   "items": [
                     "<strong>Decentralization:</strong> Computing power moved from a central IT room to individual desks across the organization.",
                     "<strong>Birth of the spreadsheet:</strong> Financial planning, budgeting, and forecasting became something an individual could do directly, without IT support.",
-                    "<strong>Lower cost of entry:</strong> Small and mid-sized businesses could now afford computing power, not just large corporations."
+                    "<strong>Lower cost of entry:</strong> Small and mid-sized businesses could now afford computing power too, not just large corporations."
                   ]
                 }
               ]
@@ -230,7 +230,7 @@
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Through the 1990s, the internet connected previously isolated computers into a single global network. Email replaced much business correspondence, the World Wide Web made information instantly accessible, and e-commerce created entirely new ways for businesses to reach customers. For the first time, data and documents could move between organizations in seconds rather than days."
+                  "content": "Through the 1990s, the internet connected previously isolated computers into a single global network. Email replaced much business correspondence, the web made information instantly accessible, and e-commerce opened entirely new ways for businesses to reach customers. For the first time, data and documents could move between organizations in seconds instead of days."
                 },
                 {
                   "type": "list",
@@ -250,7 +250,7 @@
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Rather than buying and maintaining physical servers on-site, cloud computing lets an organization rent computing power, storage, and software over the internet from providers like Amazon, Microsoft, or Google — paying only for what they use. This shifted IT spending from a large upfront capital cost to a flexible, ongoing operating expense, and made it possible for even small businesses to scale their computing needs up or down instantly."
+                  "content": "Instead of buying and maintaining physical servers on-site, cloud computing lets an organization rent computing power, storage, and software over the internet from providers like Amazon, Microsoft, or Google, paying only for what it uses. That shifted IT spending from a large upfront capital cost to a flexible, ongoing operating expense, and let even small businesses scale their computing needs up or down instantly."
                 },
                 {
                   "type": "table",
@@ -263,13 +263,13 @@
                   "rows": [
                     [
                       "Upfront cost",
-                      "High — buy servers and hardware outright",
-                      "Low — pay-as-you-go pricing"
+                      "High: buy servers and hardware outright",
+                      "Low: pay-as-you-go pricing"
                     ],
                     [
                       "Scalability",
-                      "Slow — requires buying more hardware",
-                      "Fast — capacity adjusts on demand"
+                      "Slow: requires buying more hardware",
+                      "Fast: capacity adjusts on demand"
                     ],
                     [
                       "Maintenance",
@@ -288,11 +288,11 @@
             {
               "id": "m1_s2_c6",
               "text": "Artificial Intelligence Era",
-              "summary": "Computers have moved from following fixed, pre-written instructions to learning patterns from data — the shift behind today's forecasting tools, chatbots, and recommendation engines.",
+              "summary": "Computers have moved from following fixed, pre-written instructions to learning patterns from data, the shift behind today's forecasting tools, chatbots, and recommendation engines.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Traditional software follows rules a programmer writes explicitly: if this happens, do that. Artificial Intelligence (AI), and the machine learning techniques behind most of it, instead learns patterns directly from historical data and uses those patterns to make predictions or decisions on new data. The recent acceleration in AI has been driven by two things arriving together: far larger datasets to learn from, and far cheaper computing power (often cloud-based) to process them."
+                  "content": "Traditional software follows rules a programmer writes explicitly: if this happens, do that. Artificial Intelligence, and the machine learning techniques behind most of it, instead learns patterns directly from historical data and uses those patterns to make predictions or decisions on new data. The recent acceleration in AI comes from two things arriving at once: far larger datasets to learn from, and far cheaper computing power, often cloud-based, to process them."
                 },
                 {
                   "type": "list",
@@ -301,7 +301,7 @@
                     "<strong>Fraud detection:</strong> Flagging unusual transaction patterns in real time.",
                     "<strong>Demand forecasting:</strong> Predicting future sales or inventory needs from historical data.",
                     "<strong>Chatbots and virtual assistants:</strong> Handling routine customer queries automatically.",
-                    "<strong>Generative AI tools:</strong> Drafting reports, summarizing documents, and writing code or formulas — covered later in this course."
+                    "<strong>Generative AI tools:</strong> Drafting reports, summarizing documents, and writing code or formulas, covered later in this course."
                   ]
                 }
               ]
@@ -309,16 +309,16 @@
             {
               "id": "m1_s2_c7",
               "text": "Emerging Technologies",
-              "summary": "Four fast-moving technology areas reshaping how businesses collect data, secure transactions, and compute — worth understanding even if you'll never build them yourself.",
+              "summary": "Four fast-moving technology areas reshaping how businesses collect data, secure transactions, and compute. Worth understanding even if you'll never build them yourself.",
               "children": [
                 {
                   "id": "m1_s2_c7_1",
                   "text": "IoT",
-                  "summary": "The Internet of Things connects everyday physical objects — sensors, machines, vehicles — to the internet, so they continuously generate data businesses can analyze.",
+                  "summary": "The Internet of Things connects everyday physical objects, sensors, machines, vehicles, to the internet, so they continuously generate data businesses can analyze.",
                   "blocks": [
                     {
                       "type": "text",
-                      "content": "The Internet of Things (IoT) refers to physical devices — from warehouse sensors to delivery vehicles to wearable fitness trackers — that are connected to the internet and continuously collect and transmit data. Where earlier eras of computing relied on people manually entering data, IoT devices generate it automatically and constantly, often in far greater volume than any team could capture by hand."
+                      "content": "The Internet of Things (IoT) covers physical devices, from warehouse sensors to delivery vehicles to wearable fitness trackers, that connect to the internet and continuously collect and transmit data. Earlier eras of computing relied on people manually entering data. IoT devices generate it automatically and constantly, often in far greater volume than any team could capture by hand."
                     },
                     {
                       "type": "list",
@@ -338,7 +338,7 @@
                   "blocks": [
                     {
                       "type": "text",
-                      "content": "A blockchain is a digital record-keeping system shared across many computers, where each new entry is cryptographically linked to the one before it — making past records extremely difficult to alter without detection. This matters for business because it allows organizations that don't fully trust each other (suppliers, banks, auditors) to agree on a shared version of events without a single central party controlling the record."
+                      "content": "A blockchain is a digital record-keeping system shared across many computers, where each new entry is cryptographically linked to the one before it, making past records extremely hard to alter without detection. That matters for business because it lets organizations that don't fully trust each other, suppliers, banks, auditors, agree on a shared version of events without any single party controlling the record."
                     },
                     {
                       "type": "list",
@@ -346,7 +346,7 @@
                       "items": [
                         "<strong>Supply chain traceability:</strong> Recording each step a product takes from raw material to shelf.",
                         "<strong>Cross-border payments:</strong> Settling transactions between parties in different countries without relying on multiple intermediary banks.",
-                        "<strong>Audit trails:</strong> Creating records that are difficult to quietly alter after the fact — relevant to internal controls and assurance."
+                        "<strong>Audit trails:</strong> Creating records that are hard to quietly alter after the fact, relevant to internal controls and assurance."
                       ]
                     }
                   ]
@@ -354,11 +354,11 @@
                 {
                   "id": "m1_s2_c7_3",
                   "text": "Generative AI",
-                  "summary": "Generative AI systems create new content — text, images, code — rather than only analyzing existing data, changing how analysts draft reports and explore information.",
+                  "summary": "Generative AI systems create new content, text, images, code, rather than only analyzing existing data, changing how analysts draft reports and explore information.",
                   "blocks": [
                     {
                       "type": "text",
-                      "content": "Most earlier AI systems were built to analyze or classify existing data — for example, flagging a transaction as likely fraudulent. Generative AI is different: it produces new content — writing text, generating images, or writing code — based on patterns learned from vast amounts of existing material. Tools built on this technology, including large language models, are increasingly used directly inside everyday business software."
+                      "content": "Most earlier AI systems were built to analyze or classify existing data, for example flagging a transaction as likely fraudulent. Generative AI is different. It produces new content, writing text, generating images, writing code, based on patterns learned from vast amounts of existing material. Tools built on this technology, including large language models, are increasingly used directly inside everyday business software."
                     },
                     {
                       "type": "list",
@@ -374,17 +374,17 @@
                 {
                   "id": "m1_s2_c7_4",
                   "text": "Quantum Computing Overview",
-                  "summary": "Quantum computing is an emerging approach that could eventually solve certain complex problems far faster than today's computers — still early-stage, but worth being aware of.",
+                  "summary": "Quantum computing is an emerging approach that could eventually solve certain complex problems far faster than today's computers. Still early-stage, but worth being aware of.",
                   "blocks": [
                     {
                       "type": "text",
-                      "content": "Traditional computers process information as bits that are either 0 or 1. Quantum computers use a different physical approach that, in theory, allows them to explore many possibilities simultaneously — making them potentially far faster at specific types of problems, such as complex optimization or breaking certain forms of encryption. The technology is still experimental and not yet part of everyday business computing, but it's worth knowing about because of how it could eventually affect data security and complex forecasting problems."
+                      "content": "Traditional computers process information as bits that are either 0 or 1. Quantum computers take a different physical approach that, in theory, lets them explore many possibilities at once, making them potentially far faster at specific problems such as complex optimization or breaking certain forms of encryption. The technology is still experimental and not yet part of everyday business computing, but it's worth knowing about given how it could eventually affect data security and complex forecasting."
                     },
                     {
                       "type": "list",
                       "title": "Why It's on the Radar, Not Yet in Use",
                       "items": [
-                        "<strong>Still experimental:</strong> Current quantum computers are limited, expensive, and confined mostly to research labs.",
+                        "<strong>Still experimental:</strong> Current quantum computers are limited, expensive, and mostly confined to research labs.",
                         "<strong>Long-term security implications:</strong> A sufficiently powerful quantum computer could eventually break some of today's encryption methods, which is why governments and large firms are watching this space closely.",
                         "<strong>Potential future upside:</strong> Faster solutions to complex optimization problems, such as portfolio or logistics optimization."
                       ]
@@ -403,17 +403,17 @@
             {
               "id": "m1_s3_c1",
               "text": "Enterprise Applications",
-              "summary": "Enterprise applications are large-scale software systems that run core business functions — finance, HR, supply chain — across an entire organization rather than for a single individual.",
+              "summary": "Enterprise applications are large-scale software systems that run core business functions, finance, HR, supply chain, across an entire organization rather than for one individual.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "While personal computing gave individuals their own tools, enterprise applications are built to serve an entire organization at once, keeping data consistent across departments. Instead of separate spreadsheets for finance, HR, and inventory that quickly fall out of sync, an enterprise application keeps one shared version of the data that every department reads from and writes to."
+                  "content": "Personal computing gave individuals their own tools. Enterprise applications go further, serving an entire organization at once and keeping data consistent across departments. Instead of separate spreadsheets for finance, HR, and inventory that quickly fall out of sync, an enterprise application keeps one shared version of the data that every department reads from and writes to."
                 },
                 {
                   "type": "list",
                   "title": "Common Categories",
                   "items": [
-                    "<strong>ERP (Enterprise Resource Planning):</strong> Integrates finance, procurement, and operations — covered in the next topic.",
+                    "<strong>ERP (Enterprise Resource Planning):</strong> Integrates finance, procurement, and operations, covered in the next topic.",
                     "<strong>CRM (Customer Relationship Management):</strong> Tracks customer interactions, sales pipelines, and service history.",
                     "<strong>HRIS (Human Resource Information System):</strong> Manages employee records, payroll, and benefits."
                   ]
@@ -427,7 +427,7 @@
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Enterprise Resource Planning (ERP) systems are the backbone of most mid-to-large organizations' operations. Rather than finance, procurement, and inventory each keeping separate records, an ERP system ties these functions together so that, for example, a purchase order automatically updates inventory and flows through to the accounting ledger — without anyone re-entering the same data twice."
+                  "content": "Enterprise Resource Planning (ERP) systems are the backbone of most mid-to-large organizations' operations. Instead of finance, procurement, and inventory each keeping separate records, an ERP system ties these functions together, so a purchase order automatically updates inventory and flows through to the accounting ledger without anyone re-entering the same data twice."
                 },
                 {
                   "type": "table",
@@ -460,14 +460,14 @@
               "blocks": [
                 {
                   "type": "text",
-                  "content": "A database is a structured system for storing, organizing, and retrieving data reliably — the foundation underneath almost every business application, including the ERP and CRM systems already covered. Rather than data sitting in scattered files, a database keeps it organized in tables so it can be searched, updated, and reported on consistently and by many users at once. Module 8 (Database Systems) and Module 9 (SQL) return to this topic in much greater depth."
+                  "content": "A database is a structured system for storing, organizing, and retrieving data reliably, the foundation underneath almost every business application, including the ERP and CRM systems already covered. Instead of data sitting in scattered files, a database keeps it organized in tables so it can be searched, updated, and reported on consistently by many users at once. Module 8 (Database Systems) and Module 9 (SQL) come back to this topic in much greater depth."
                 },
                 {
                   "type": "list",
                   "title": "What to Know at This Stage",
                   "items": [
                     "<strong>Structured storage:</strong> Data is organized into tables of rows and columns, similar in shape to a spreadsheet but built to handle far larger volumes reliably.",
-                    "<strong>Single source of truth:</strong> Every system that needs the data — finance, sales, operations — reads from the same underlying database.",
+                    "<strong>Single source of truth:</strong> Every system that needs the data, finance, sales, operations, reads from the same underlying database.",
                     "<strong>Foundation for analytics:</strong> Nearly every report, dashboard, and analysis in this course ultimately traces back to data sitting in a database."
                   ]
                 }
@@ -480,7 +480,7 @@
               "blocks": [
                 {
                   "type": "text",
-                  "content": "A server is simply a computer dedicated to providing a service to other computers — hosting a website, running a database, or storing shared files. Historically, businesses housed their own servers on-site in a dedicated server room. Today, many of those same workloads run instead on servers inside a cloud provider's data center, accessed remotely over the internet."
+                  "content": "A server is simply a computer dedicated to providing a service to other computers, hosting a website, running a database, storing shared files. Businesses used to house their own servers on-site in a dedicated server room. Today, many of those same workloads run instead on servers inside a cloud provider's data center, accessed remotely over the internet."
                 },
                 {
                   "type": "list",
@@ -496,7 +496,7 @@
             {
               "id": "m1_s3_c5",
               "text": "Cloud Platforms",
-              "summary": "Cloud platforms are the major providers — AWS, Microsoft Azure, Google Cloud — that rent out computing infrastructure so businesses don't have to own physical servers.",
+              "summary": "Cloud platforms are the major providers, AWS, Microsoft Azure, Google Cloud, that rent out computing infrastructure so businesses don't have to own physical servers.",
               "blocks": [
                 {
                   "type": "text",
@@ -524,16 +524,16 @@
         {
           "id": "m2_s1",
           "text": "Understanding Data",
-          "summary": "The raw material of every analysis in this course — what data actually is, where it comes from, and the different forms it takes.",
+          "summary": "The raw material of every analysis in this course: what data actually is, where it comes from, and the different forms it takes.",
           "children": [
             {
               "id": "m2_s1_c1",
               "text": "What is Data?",
-              "summary": "Data is any raw fact or observation — a number, a word, a date — that on its own doesn't yet tell you much, but becomes valuable once it's organized and analyzed.",
+              "summary": "Data is any raw fact or observation, a number, a word, a date, that on its own doesn't tell you much, but becomes valuable once it's organized and analyzed.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "On its own, the number \"45,000\" is just data — it has no meaning until you know it's a sales figure, for which month, and in which currency. Data is the raw, unprocessed starting point of every analysis; everything else in this course is about turning it into something useful."
+                  "content": "On its own, the number \"45,000\" is just data. It means nothing until you know it's a sales figure, for which month, in which currency. Data is the raw, unprocessed starting point of every analysis; everything else in this course is about turning it into something useful."
                 },
                 {
                   "type": "list",
@@ -550,11 +550,11 @@
             {
               "id": "m2_s1_c2",
               "text": "Evolution of Data Analytics",
-              "summary": "Analytics has evolved from simple manual bookkeeping and reporting to today's automated, AI-assisted analysis of massive datasets in real time.",
+              "summary": "Analytics has grown from simple manual bookkeeping and reporting into today's automated, AI-assisted analysis of massive datasets in real time.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Businesses have always used data to make decisions — the tools have just changed. What once took a bookkeeper days with a paper ledger now happens automatically, continuously, and at a scale no human team could match by hand."
+                  "content": "Businesses have always used data to make decisions. Only the tools have changed. What once took a bookkeeper days with a paper ledger now happens automatically, continuously, at a scale no human team could match by hand."
                 },
                 {
                   "type": "list",
@@ -563,7 +563,7 @@
                     "<strong>Manual record-keeping:</strong> Paper ledgers and handwritten reports.",
                     "<strong>Spreadsheet era:</strong> Excel put calculation and modelling on every desk.",
                     "<strong>Business Intelligence:</strong> Dashboards and automated reporting across an organization.",
-                    "<strong>Big Data & AI:</strong> Real-time analysis of massive, fast-moving datasets."
+                    "<strong>Big Data and AI:</strong> Real-time analysis of massive, fast-moving datasets."
                   ]
                 }
               ]
@@ -571,22 +571,22 @@
             {
               "id": "m2_s1_c3",
               "text": "Data Life Cycle",
-              "summary": "Data moves through a predictable set of stages from the moment it's collected to the moment it's archived or deleted — understanding this cycle helps you know where quality issues creep in.",
+              "summary": "Data moves through a predictable set of stages from the moment it's collected to the moment it's archived or deleted. Knowing this cycle helps you spot where quality issues creep in.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Almost every data quality problem you'll encounter traces back to a weak point somewhere in this cycle — often at collection or cleaning, long before anyone runs an analysis."
+                  "content": "Almost every data quality problem you'll run into traces back to a weak point somewhere in this cycle, often at collection or cleaning, long before anyone runs an analysis."
                 },
                 {
                   "type": "list",
                   "title": "Stages of the Data Life Cycle",
                   "items": [
-                    "<strong>Collection:</strong> Data is captured — a sale is recorded, a form is submitted.",
+                    "<strong>Collection:</strong> Data is captured, a sale is recorded, a form is submitted.",
                     "<strong>Storage:</strong> Data is saved in a file, database, or system.",
-                    "<strong>Processing & cleaning:</strong> Errors are fixed and data is reshaped for use.",
-                    "<strong>Analysis:</strong> Patterns and answers are extracted from the data.",
-                    "<strong>Reporting & sharing:</strong> Findings are communicated to decision-makers.",
-                    "<strong>Archiving or deletion:</strong> Data is retained for records or removed once no longer needed."
+                    "<strong>Processing and cleaning:</strong> Errors are fixed and data is reshaped for use.",
+                    "<strong>Analysis:</strong> Patterns and answers are pulled from the data.",
+                    "<strong>Reporting and sharing:</strong> Findings are communicated to decision-makers.",
+                    "<strong>Archiving or deletion:</strong> Data is kept for records or removed once it's no longer needed."
                   ]
                 }
               ]
@@ -594,7 +594,7 @@
             {
               "id": "m2_s1_c4",
               "text": "Data Domains (DE, DA, DS)",
-              "summary": "Data Engineering, Data Analysis, and Data Science are three related but distinct disciplines, each focused on a different stage of turning raw data into value.",
+              "summary": "Data Engineering, Data Analysis, and Data Science are related but distinct disciplines, each focused on a different stage of turning raw data into value.",
               "blocks": [
                 {
                   "type": "table",
@@ -627,11 +627,11 @@
             {
               "id": "m2_s1_c5",
               "text": "Big Data and AI",
-              "summary": "Big Data refers to datasets too large or fast-moving for traditional tools to handle; AI is one of the main technologies now used to make sense of it.",
+              "summary": "Big Data means datasets too large or fast-moving for traditional tools to handle. AI is one of the main technologies now used to make sense of it.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "A dataset that would crash Excel or take days to process manually falls into the category of Big Data. AI and machine learning are closely linked to this shift, because these techniques need very large amounts of data to learn useful patterns from — and cheaper cloud computing has made storing and processing that much data affordable for the first time."
+                  "content": "A dataset that would crash Excel or take days to process by hand falls into Big Data territory. AI and machine learning are closely tied to this shift, since these techniques need very large amounts of data to learn useful patterns from, and cheaper cloud computing has made storing and processing that much data affordable for the first time."
                 },
                 {
                   "type": "list",
@@ -671,7 +671,7 @@
                     [
                       "Knowledge",
                       "Information understood well enough to act on",
-                      "\"March sales rose because of the new promotion — worth repeating in Q3\""
+                      "\"March sales rose because of the new promotion, worth repeating in Q3\""
                     ]
                   ]
                 }
@@ -680,11 +680,11 @@
             {
               "id": "m2_s1_c7",
               "text": "Structured Data",
-              "summary": "Structured data is information organized into a fixed format of rows and columns, like a spreadsheet or database table, making it easy to search and analyze.",
+              "summary": "Structured data is organized into a fixed format of rows and columns, like a spreadsheet or database table, which makes it easy to search and analyze.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Structured data is the easiest type to work with because every record follows the same predictable layout — the same columns, in the same order, for every row. Most of the analytics techniques in this course are built around structured data."
+                  "content": "Structured data is the easiest type to work with, because every record follows the same predictable layout: the same columns, in the same order, for every row. Most of the analytics techniques in this course are built around structured data."
                 },
                 {
                   "type": "list",
@@ -700,11 +700,11 @@
             {
               "id": "m2_s1_c8",
               "text": "Semi-Structured Data",
-              "summary": "Semi-structured data has some organizational structure but doesn't fit neatly into rows and columns, such as emails or JSON files.",
+              "summary": "Semi-structured data has some organizational structure but doesn't fit neatly into rows and columns, think emails or JSON files.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Semi-structured data sits between fully organized spreadsheets and completely free-form text. It has identifiable elements — like a sender and subject line in an email — but the overall shape can vary from one record to the next."
+                  "content": "Semi-structured data sits between fully organized spreadsheets and completely free-form text. It has identifiable elements, like a sender and subject line in an email, but the overall shape can vary from one record to the next."
                 },
                 {
                   "type": "list",
@@ -720,11 +720,11 @@
             {
               "id": "m2_s1_c9",
               "text": "Unstructured Data",
-              "summary": "Unstructured data has no predefined organization at all, making it the hardest type to search and analyze directly — think free text, images, and audio.",
+              "summary": "Unstructured data has no predefined organization at all, which makes it the hardest type to search and analyze directly. Think free text, images, and audio.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Unstructured data makes up the majority of data generated worldwide, but it can't be dropped into a spreadsheet the way structured data can. Making sense of it usually requires more advanced tools, including AI, to extract structure from it first."
+                  "content": "Unstructured data makes up most of the data generated worldwide, but it can't just be dropped into a spreadsheet the way structured data can. Making sense of it usually takes more advanced tools, including AI, to extract structure from it first."
                 },
                 {
                   "type": "list",
@@ -748,11 +748,11 @@
             {
               "id": "m2_s2_c1",
               "text": "What is Data Analytics?",
-              "summary": "Data analytics is the process of examining data to find patterns, answer questions, and support decisions — turning numbers into direction.",
+              "summary": "Data analytics is the process of examining data to find patterns, answer questions, and support decisions: turning numbers into direction.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "At its simplest, data analytics means asking a question, then using data to answer it — whether that's \"which product sold best last quarter?\" or \"which customers are most likely to churn?\" The techniques range from a simple Excel filter to a machine learning model, but the underlying goal is always the same."
+                  "content": "At its simplest, data analytics means asking a question, then using data to answer it, whether that's \"which product sold best last quarter?\" or \"which customers are most likely to churn?\" The techniques range from a simple Excel filter to a machine learning model, but the underlying goal never changes."
                 },
                 {
                   "type": "list",
@@ -769,7 +769,7 @@
             {
               "id": "m2_s2_c2",
               "text": "Why Data Analytics Matters",
-              "summary": "Organizations that use data to guide decisions consistently outperform those relying on gut feeling alone, because analytics reduces guesswork and surfaces patterns humans would otherwise miss.",
+              "summary": "Organizations that use data to guide decisions tend to consistently outperform those relying on gut feeling alone, because analytics cuts guesswork and surfaces patterns people would otherwise miss.",
               "blocks": [
                 {
                   "type": "list",
@@ -786,11 +786,11 @@
             {
               "id": "m2_s2_c3",
               "text": "Data-Driven Decision Making",
-              "summary": "Data-driven decision making means basing choices on evidence from data rather than intuition alone — though good judgement is still needed to interpret what the data shows.",
+              "summary": "Data-driven decision making means basing choices on evidence from data rather than intuition alone, though good judgement still matters in interpreting what the data shows.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Being data-driven doesn't mean removing human judgement — it means using data as the starting point for a decision, and judgement to interpret what that data actually means for the business."
+                  "content": "Being data-driven doesn't mean removing human judgement. It means using data as the starting point for a decision, and judgement to work out what that data actually means for the business."
                 },
                 {
                   "type": "list",
@@ -823,7 +823,7 @@
             {
               "id": "m2_s2_c5",
               "text": "Data Sources",
-              "summary": "Data used in analytics comes from many places inside and outside an organization — internal systems, external providers, and increasingly, direct user input.",
+              "summary": "Data used in analytics comes from many places inside and outside an organization: internal systems, external providers, and increasingly, direct user input.",
               "blocks": [
                 {
                   "type": "list",
@@ -840,7 +840,7 @@
             {
               "id": "m2_s2_c6",
               "text": "Data Analytics Lifecycle",
-              "summary": "A structured process analysts follow from defining a business question through to delivering an answer — keeping analysis focused and useful rather than open-ended exploration.",
+              "summary": "A structured process analysts follow from defining a business question through to delivering an answer, keeping analysis focused rather than open-ended exploration.",
               "blocks": [
                 {
                   "type": "list",
@@ -861,16 +861,16 @@
         {
           "id": "m2_s3",
           "text": "Types of Analytics",
-          "summary": "Four questions analytics can answer — what happened, why it happened, what will happen, and what should be done — each requiring a different technique.",
+          "summary": "Four questions analytics can answer, what happened, why it happened, what will happen, and what should be done, each needing a different technique.",
           "children": [
             {
               "id": "m2_s3_c1",
               "text": "Descriptive Analytics",
-              "summary": "Descriptive analytics summarizes what has already happened — the starting point for almost every business report, from monthly sales totals to KPI dashboards.",
+              "summary": "Descriptive analytics summarizes what has already happened, the starting point for almost every business report, from monthly sales totals to KPI dashboards.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Descriptive analytics answers \"what happened?\" by summarizing historical data — it's the simplest and most common type of analysis, and usually the first step before anything more advanced."
+                  "content": "Descriptive analytics answers \"what happened?\" by summarizing historical data. It's the simplest and most common type of analysis, and usually the first step before anything more advanced."
                 },
                 {
                   "type": "list",
@@ -890,7 +890,7 @@
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Diagnostic analytics answers \"why did this happen?\" — it goes a step beyond description by comparing, segmenting, and drilling into data to find the cause behind a result."
+                  "content": "Diagnostic analytics answers \"why did this happen?\" It goes a step beyond description, comparing, segmenting, and drilling into data to find the cause behind a result."
                 },
                 {
                   "type": "list",
@@ -905,11 +905,11 @@
             {
               "id": "m2_s3_c3",
               "text": "Predictive Analytics",
-              "summary": "Predictive analytics uses historical data and statistical models to estimate what is likely to happen next, such as forecasting next quarter's revenue.",
+              "summary": "Predictive analytics uses historical data and statistical models to estimate what's likely to happen next, such as forecasting next quarter's revenue.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Predictive analytics answers \"what's likely to happen next?\" by identifying patterns in historical data and projecting them forward. It doesn't guarantee an outcome — it estimates a probability based on what's happened before."
+                  "content": "Predictive analytics answers \"what's likely to happen next?\" by finding patterns in historical data and projecting them forward. It doesn't guarantee an outcome. It estimates a probability based on what's happened before."
                 },
                 {
                   "type": "list",
@@ -925,11 +925,11 @@
             {
               "id": "m2_s3_c4",
               "text": "Prescriptive Analytics",
-              "summary": "Prescriptive analytics goes one step further than prediction by recommending a specific course of action — the most advanced and least commonly implemented of the four types.",
+              "summary": "Prescriptive analytics goes a step further than prediction by recommending a specific course of action, the most advanced and least commonly implemented of the four types.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Prescriptive analytics answers \"what should we do about it?\" — combining prediction with optimization to recommend a specific action, not just a forecast. It's the most complex type of analytics, and the one you'll see least often as a beginner."
+                  "content": "Prescriptive analytics answers \"what should we do about it?\" It combines prediction with optimization to recommend a specific action, not just a forecast. It's the most complex type of analytics, and the one you'll see least often as a beginner."
                 },
                 {
                   "type": "list",
@@ -947,7 +947,7 @@
         {
           "id": "m2_s4",
           "text": "Roles in Data Domain",
-          "summary": "The job titles you'll encounter across the data and analytics profession, and how they typically divide the work.",
+          "summary": "The job titles you'll run into across the data and analytics profession, and how they typically divide the work.",
           "children": [
             {
               "id": "m2_s4_c1",
@@ -956,7 +956,7 @@
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Data Engineers rarely analyze data themselves — instead, they build the plumbing that gets clean, reliable data flowing from source systems into the databases and warehouses that analysts and scientists rely on."
+                  "content": "Data Engineers rarely analyze data themselves. Instead, they build the plumbing that gets clean, reliable data flowing from source systems into the databases and warehouses that analysts and scientists depend on."
                 }
               ]
             },
@@ -967,7 +967,7 @@
               "blocks": [
                 {
                   "type": "text",
-                  "content": "This is the role closest to the day-to-day work in this course — taking data that already exists, analyzing it, and translating the findings into a report or dashboard a manager can act on."
+                  "content": "This is the role closest to the day-to-day work in this course: taking data that already exists, analyzing it, and turning the findings into a report or dashboard a manager can act on."
                 }
               ]
             },
@@ -978,40 +978,40 @@
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Where a Data Analyst typically explains what has already happened, a Data Scientist more often builds models that predict what will happen next, using statistical and machine learning techniques."
+                  "content": "Where a Data Analyst typically explains what has already happened, a Data Scientist more often builds models that predict what happens next, using statistical and machine learning techniques."
                 }
               ]
             },
             {
               "id": "m2_s4_c4",
               "text": "Business Analyst",
-              "summary": "Business Analysts bridge business needs and technical solutions, often translating a business problem into requirements a data or IT team can act on.",
+              "summary": "Business Analysts bridge business needs and technical solutions, translating a business problem into requirements a data or IT team can act on.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "A Business Analyst focuses less on the technical analysis itself and more on understanding what the business actually needs, then translating that into clear requirements for a technical team to build."
+                  "content": "A Business Analyst focuses less on the technical analysis itself and more on understanding what the business actually needs, then turning that into clear requirements for a technical team to build."
                 }
               ]
             },
             {
               "id": "m2_s4_c5",
               "text": "Financial Analyst",
-              "summary": "Financial Analysts apply analytical techniques specifically to financial data — budgeting, forecasting, valuation — to support financial decision-making.",
+              "summary": "Financial Analysts apply analytical techniques specifically to financial data, budgeting, forecasting, valuation, to support financial decision-making.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "A Financial Analyst applies the same broad analytical thinking as a Data Analyst, but specialized in financial data — building budgets, forecasts, and valuations to support investment and business decisions."
+                  "content": "A Financial Analyst applies the same broad analytical thinking as a Data Analyst, but specialized in financial data: building budgets, forecasts, and valuations to support investment and business decisions."
                 }
               ]
             },
             {
               "id": "m2_s4_c6",
               "text": "AI Engineer",
-              "summary": "AI Engineers design, build, and deploy AI and machine learning systems into real products and workflows — an increasingly common role as generative AI adoption grows.",
+              "summary": "AI Engineers design, build, and deploy AI and machine learning systems into real products and workflows, an increasingly common role as generative AI adoption grows.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "AI Engineers take AI and machine learning models — often built by data scientists — and integrate them into real, working products and systems that other people or systems can use directly."
+                  "content": "AI Engineers take AI and machine learning models, often built by data scientists, and integrate them into real, working products and systems that other people or systems can use directly."
                 }
               ]
             }
@@ -1026,7 +1026,7 @@
         {
           "id": "m3_s1",
           "text": "Excel Fundamentals (Tables, Formulas)",
-          "summary": "The building blocks of Excel — structured tables and formulas — that turn a grid of numbers into a working calculation engine.",
+          "summary": "The building blocks of Excel, structured tables and formulas, that turn a grid of numbers into a working calculation engine.",
           "blocks": [
             {
               "type": "text",
@@ -1046,7 +1046,7 @@
         {
           "id": "m3_s2",
           "text": "Data Analysis (Lookup, Logic, Date)",
-          "summary": "Excel's core analytical formulas — lookups to pull matching data, logic functions to test conditions, and date functions to work with time periods.",
+          "summary": "Excel's core analytical formulas: lookups to pull matching data, logic functions to test conditions, and date functions to work with time periods.",
           "blocks": [
             {
               "type": "table",
@@ -1079,11 +1079,11 @@
         {
           "id": "m3_s3",
           "text": "Pivot Tables (Aggregation, Reporting)",
-          "summary": "Pivot Tables let you summarize thousands of rows of data into a compact, reorganizable report in a few clicks, without writing a single formula.",
+          "summary": "Pivot Tables let you summarize thousands of rows into a compact, reorganizable report in a few clicks, without writing a single formula.",
           "blocks": [
             {
               "type": "text",
-              "content": "A Pivot Table takes a large, detailed dataset and lets you summarize it by any category you choose — total sales by region, headcount by department — simply by dragging fields into place, rather than writing formulas."
+              "content": "A Pivot Table takes a large, detailed dataset and lets you summarize it by any category you choose, total sales by region, headcount by department, just by dragging fields into place instead of writing formulas."
             },
             {
               "type": "list",
@@ -1099,11 +1099,11 @@
         {
           "id": "m3_s4",
           "text": "Data Visualization (Dashboards, Charts)",
-          "summary": "Turning summarized data into charts and dashboards that communicate a finding at a glance, rather than making the reader parse a table of numbers.",
+          "summary": "Turning summarized data into charts and dashboards that communicate a finding at a glance, instead of making the reader parse a table of numbers.",
           "blocks": [
             {
               "type": "text",
-              "content": "A well-chosen chart lets a reader grasp a finding in seconds — a table of the same numbers forces them to do the work themselves. The right chart type depends entirely on the question you're answering."
+              "content": "A well-chosen chart lets a reader grasp a finding in seconds. A table of the same numbers forces them to do the work themselves. The right chart type depends entirely on the question you're answering."
             },
             {
               "type": "list",
@@ -1111,7 +1111,7 @@
               "items": [
                 "<strong>Bar chart:</strong> Comparing values across categories.",
                 "<strong>Line chart:</strong> Showing a trend over time.",
-                "<strong>Pie chart:</strong> Showing parts of a whole — use sparingly, and only with few categories."
+                "<strong>Pie chart:</strong> Showing parts of a whole. Use sparingly, and only with few categories."
               ]
             }
           ]
@@ -1125,7 +1125,7 @@
         {
           "id": "m4_s1",
           "text": "Techniques (Manual, Forms, APIs, Scraping)",
-          "summary": "Data can be collected in several ways, ranging from manual entry to fully automated feeds — the right method depends on volume, frequency, and source.",
+          "summary": "Data can be collected in several ways, from manual entry to fully automated feeds. The right method depends on volume, frequency, and source.",
           "blocks": [
             {
               "type": "table",
@@ -1142,7 +1142,7 @@
                   "Small, infrequent datasets"
                 ],
                 [
-                  "Forms & surveys",
+                  "Forms and surveys",
                   "Structured data collected from respondents",
                   "Primary research, customer feedback"
                 ],
@@ -1163,7 +1163,7 @@
         {
           "id": "m4_s2",
           "text": "Data Quality (Accuracy, Completeness, Validity)",
-          "summary": "Good analysis is only possible with good data — quality is typically judged across accuracy, completeness, and validity.",
+          "summary": "Good analysis is only possible with good data. Quality is typically judged across accuracy, completeness, and validity.",
           "blocks": [
             {
               "type": "table",
@@ -1192,14 +1192,14 @@
         {
           "id": "m4_s3",
           "text": "Data Cleaning (Missing Values, Outliers, Duplicates)",
-          "summary": "Before analysis can begin, raw data almost always needs cleaning — handling missing values, unusual outliers, and duplicate records.",
+          "summary": "Before analysis can begin, raw data almost always needs cleaning: handling missing values, unusual outliers, and duplicate records.",
           "blocks": [
             {
               "type": "list",
               "title": "Common Cleaning Tasks",
               "items": [
-                "<strong>Missing values:</strong> Decide whether to fill, estimate, or exclude them — never ignore silently.",
-                "<strong>Outliers:</strong> Investigate before removing — an unusual value could be genuine, not an error.",
+                "<strong>Missing values:</strong> Decide whether to fill, estimate, or exclude them. Never ignore them silently.",
+                "<strong>Outliers:</strong> Investigate before removing. An unusual value could be genuine, not an error.",
                 "<strong>Duplicates:</strong> Remove to avoid double-counting in totals and averages."
               ]
             }
@@ -1208,7 +1208,7 @@
         {
           "id": "m4_s4",
           "text": "Data Transformation (Formatting, Enrichment)",
-          "summary": "Transformation reshapes and enhances raw data into a form ready for analysis — standardizing formats and adding useful new information.",
+          "summary": "Transformation reshapes and enhances raw data into a form ready for analysis, standardizing formats and adding useful new information.",
           "blocks": [
             {
               "type": "list",
@@ -1245,7 +1245,7 @@
         {
           "id": "m5_s2",
           "text": "Core Concepts (Variables, Data Types, Operators)",
-          "summary": "The basic vocabulary every programming language shares — variables to store values, data types to define what kind of value it is, and operators to work with them.",
+          "summary": "The basic vocabulary every programming language shares: variables to store values, data types to define what kind of value it is, and operators to work with them.",
           "blocks": [
             {
               "type": "table",
@@ -1278,7 +1278,7 @@
         {
           "id": "m5_s3",
           "text": "Control Flow (Conditions, Loops)",
-          "summary": "Control flow determines the order code runs in — conditions decide which path to take, and loops repeat an action automatically.",
+          "summary": "Control flow determines the order code runs in. Conditions decide which path to take, and loops repeat an action automatically.",
           "blocks": [
             {
               "type": "list",
@@ -1293,11 +1293,11 @@
         {
           "id": "m5_s4",
           "text": "Functions (Parameters, Return Values)",
-          "summary": "A function is a reusable, named block of code that takes inputs (parameters) and produces an output (return value) — write it once, use it many times.",
+          "summary": "A function is a reusable, named block of code that takes inputs (parameters) and produces an output (return value). Write it once, use it many times.",
           "blocks": [
             {
               "type": "text",
-              "content": "A function packages up a piece of logic so it can be reused without rewriting it. It typically takes one or more inputs (parameters), does something with them, and hands back a result (a return value) — much like an Excel formula takes inputs and returns a calculated result."
+              "content": "A function packages up a piece of logic so it can be reused without rewriting it. It typically takes one or more inputs (parameters), does something with them, and hands back a result (a return value), much like an Excel formula takes inputs and returns a calculated result."
             }
           ]
         },
@@ -1308,14 +1308,14 @@
           "blocks": [
             {
               "type": "text",
-              "content": "A class is a template describing a type of thing — say, a \"Customer\" — including the data it holds (name, balance) and the actions it can perform (place an order). An object is one specific instance built from that template. You won't need to write object-oriented code early on, but you'll recognize the pattern in most real-world Python libraries."
+              "content": "A class is a template describing a type of thing, say, a \"Customer\", including the data it holds (name, balance) and the actions it can perform (place an order). An object is one specific instance built from that template. You won't need to write object-oriented code early on, but you'll recognize the pattern in most real-world Python libraries."
             }
           ]
         },
         {
           "id": "m5_s6",
           "text": "Language Core (Compiled vs Interpreted)",
-          "summary": "Programming languages are either compiled (translated into machine code ahead of time) or interpreted (translated and run line by line) — Python, which you'll learn next, is interpreted.",
+          "summary": "Programming languages are either compiled, translated into machine code ahead of time, or interpreted, translated and run line by line. Python, which you'll learn next, is interpreted.",
           "blocks": [
             {
               "type": "table",
@@ -1349,12 +1349,12 @@
         {
           "id": "m6_sub1",
           "text": "Python Fundamentals",
-          "summary": "The core Python skills needed before any data-specific work — syntax, data structures, functions, and handling errors.",
+          "summary": "The core Python skills needed before any data-specific work: syntax, data structures, functions, and handling errors.",
           "children": [
             {
               "id": "m6_s1_c1",
               "text": "Installing & Development Environments",
-              "summary": "Before writing any Python, you need somewhere to write and run it — options range from simple to full-featured setups.",
+              "summary": "Before writing any Python, you need somewhere to write and run it. Options range from simple to full-featured setups.",
               "blocks": [
                 {
                   "type": "list",
@@ -1362,26 +1362,40 @@
                   "items": [
                     "<strong>Jupyter Notebook:</strong> Interactive, ideal for exploratory data analysis.",
                     "<strong>VS Code:</strong> A full-featured code editor for larger projects.",
-                    "<strong>Google Colab:</strong> Runs entirely in the browser — no installation needed, great for getting started."
+                    "<strong>Google Colab:</strong> Runs entirely in the browser, no installation needed, great for getting started."
                   ]
+                },
+                {
+                  "type": "text",
+                  "content": "Throughout this module, we'll build up a small analysis for a fictional Colombo retail chain called Ceylon Mart. You'll use the same dataset across every topic, so set up whichever environment you're comfortable with now."
+                },
+                {
+                  "type": "code",
+                  "language": "python",
+                  "content": "# Try This\n# Open Jupyter Notebook, VS Code, or Google Colab and run this line.\n# If you see the message printed below, your environment is ready.\n\nprint(\"Ceylon Mart analytics environment is ready.\")\n\n# Answer / Expected Output:\n# Ceylon Mart analytics environment is ready."
                 }
               ]
             },
             {
               "id": "m6_s1_c2",
               "text": "Syntax, Variables, Operators, I/O",
-              "summary": "The basic grammar of Python — how to write valid code, store values in variables, perform operations, and get input or output.",
+              "summary": "The basic grammar of Python: how to write valid code, store values in variables, perform operations, and get input or output.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Python's syntax is designed to read almost like plain English. You'll store values in variables, use operators to calculate and compare, and use built-in functions like print() to display output — the same core building blocks covered in Module 5, now written in actual Python code."
+                  "content": "Python's syntax reads almost like plain English. You'll store values in variables, use operators to calculate and compare, and use built-in functions like print() to display output, the same core building blocks covered in Module 5, now written as actual Python code."
+                },
+                {
+                  "type": "code",
+                  "language": "python",
+                  "content": "# Try This\n# Ceylon Mart's Colombo branch had these figures today.\n# Store them in variables, then print a one-line summary.\n\nbranch_name = \"Colombo\"\ndaily_sales = 125000\nis_open = True\n\n# Write one print() statement combining all three variables.\n\n\n# --- Answer ---\nprint(f\"{branch_name} branch | Sales: Rs. {daily_sales} | Open: {is_open}\")\n\n# Expected Output:\n# Colombo branch | Sales: Rs. 125000 | Open: True"
                 }
               ]
             },
             {
               "id": "m6_s1_c3",
               "text": "Data Structures (Lists, Tuples, Dicts, Sets)",
-              "summary": "Python's core ways of holding multiple values at once — each structure suited to a different kind of data organization.",
+              "summary": "Python's core ways of holding multiple values at once. Each structure suits a different kind of data organization.",
               "blocks": [
                 {
                   "type": "table",
@@ -1409,7 +1423,7 @@
                       "Dictionary",
                       "No",
                       "Yes",
-                      "Key–value pairs, like a customer record"
+                      "Key-value pairs, like a customer record"
                     ],
                     [
                       "Set",
@@ -1418,28 +1432,43 @@
                       "A collection of unique values only"
                     ]
                   ]
+                },
+                {
+                  "type": "code",
+                  "language": "python",
+                  "content": "# Try This\n# Ceylon Mart recorded these daily sales (in Rs. '000) for one week,\n# and one customer's record as a dictionary.\n\ndaily_sales = [120, 135, 98, 150, 175, 210, 90]\ncustomer = {\"name\": \"N. Perera\", \"city\": \"Colombo\", \"loyalty_points\": 340}\n\n# 1. Find the total sales for the week.\n# 2. Print the customer's city.\n\n\n# --- Answer ---\ntotal_sales = sum(daily_sales)\nprint(\"Weekly total (Rs. '000):\", total_sales)\nprint(\"Customer city:\", customer[\"city\"])\n\n# Expected Output:\n# Weekly total (Rs. '000): 978\n# Customer city: Colombo"
                 }
               ]
             },
             {
               "id": "m6_s1_c4",
               "text": "Functions, Modules, Packages & Libraries",
-              "summary": "How Python code is organized and reused — from a single function, to a file of functions (module), to a full toolkit others have built (package or library).",
+              "summary": "How Python code is organized and reused: from a single function, to a file of functions (a module), to a full toolkit others have built (a package or library).",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Rather than writing everything from scratch, Python lets you reuse code at increasing scale: a function does one specific job; a module is a file grouping related functions together; a package or library is a full, published toolkit — like Pandas — that you install and import into your own work."
+                  "content": "Rather than writing everything from scratch, Python lets you reuse code at increasing scale: a function does one specific job; a module is a file grouping related functions together; a package or library is a full, published toolkit, like Pandas, that you install and import into your own work."
+                },
+                {
+                  "type": "code",
+                  "language": "python",
+                  "content": "# Try This\n# Write a function that calculates the total value of one Ceylon Mart\n# order line, given a quantity and a unit price.\n\ndef calculate_line_total(quantity, unit_price):\n    # your code here\n    pass\n\n# Test it on: 4 units at Rs. 350 each, and 12 units at Rs. 85 each.\n\n\n# --- Answer ---\ndef calculate_line_total(quantity, unit_price):\n    return quantity * unit_price\n\nprint(calculate_line_total(4, 350))\nprint(calculate_line_total(12, 85))\n\n# Expected Output:\n# 1400\n# 1020"
                 }
               ]
             },
             {
               "id": "m6_s1_c5",
               "text": "File Handling (CSV, Excel, JSON)",
-              "summary": "Reading and writing the file formats analysts work with most often — CSV, Excel, and JSON — directly from Python code.",
+              "summary": "Reading and writing the file formats analysts work with most often, CSV, Excel, and JSON, directly from Python code.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Almost every analysis starts by loading data from a file and ends by saving results back out. Python can read and write CSV files, Excel workbooks, and JSON files directly, making it easy to fit into a workflow that already involves spreadsheets or other business systems."
+                  "content": "Almost every analysis starts by loading data from a file and ends by saving results back out. Python can read and write CSV files, Excel workbooks, and JSON files directly, which fits naturally into a workflow that already involves spreadsheets or other business systems."
+                },
+                {
+                  "type": "code",
+                  "language": "python",
+                  "content": "# Try This\n# Ceylon Mart keeps its daily orders in \"ceylonmart_orders.csv\" with\n# columns: order_id, customer_name, city, product, quantity, unit_price.\n# Read the file and print the first 3 rows.\n\nimport csv\n\n# your code here\n\n\n# --- Answer ---\nimport csv\n\nwith open(\"ceylonmart_orders.csv\") as f:\n    reader = csv.DictReader(f)\n    rows = list(reader)\n\nfor row in rows[:3]:\n    print(row)\n\n# Expected Output (example):\n# {'order_id': '1001', 'customer_name': 'N. Perera', 'city': 'Colombo', 'product': 'Rice 5kg', 'quantity': '2', 'unit_price': '950'}\n# ...and two more rows in the same shape."
                 }
               ]
             },
@@ -1450,7 +1479,12 @@
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Code will eventually encounter something it doesn't expect — a missing file, a value in the wrong format. Error handling lets you anticipate this and respond gracefully instead of the whole script crashing. Debugging is the skill of reading an error message, isolating where the problem occurred, and fixing it."
+                  "content": "Code will eventually run into something it doesn't expect, a missing file, a value in the wrong format. Error handling lets you plan for that and respond gracefully instead of letting the whole script crash. Debugging is the skill of reading an error message, isolating where the problem happened, and fixing it."
+                },
+                {
+                  "type": "code",
+                  "language": "python",
+                  "content": "# Try This\n# Ceylon Mart wants average order value: total sales divided by\n# number of orders. Handle the case where there are zero orders.\n\ndef average_order_value(total_sales, order_count):\n    # your code here\n    pass\n\nprint(average_order_value(50000, 20))\nprint(average_order_value(0, 0))\n\n\n# --- Answer ---\ndef average_order_value(total_sales, order_count):\n    try:\n        return total_sales / order_count\n    except ZeroDivisionError:\n        return 0\n\nprint(average_order_value(50000, 20))\nprint(average_order_value(0, 0))\n\n# Expected Output:\n# 2500.0\n# 0"
                 }
               ]
             }
@@ -1464,7 +1498,7 @@
             {
               "id": "m6_s2_c1",
               "text": "Analytical Libraries (NumPy, Pandas)",
-              "summary": "NumPy and Pandas are the two foundational Python libraries for data analysis — NumPy for numerical computation, Pandas for working with tabular data.",
+              "summary": "NumPy and Pandas are the two foundational Python libraries for data analysis. NumPy handles numerical computation, Pandas handles tabular data.",
               "blocks": [
                 {
                   "type": "table",
@@ -1480,27 +1514,37 @@
                     ],
                     [
                       "Pandas",
-                      "Spreadsheet-like tables called DataFrames — the core tool for real-world data analysis in Python"
+                      "Spreadsheet-like tables called DataFrames, the core tool for real-world data analysis in Python"
                     ]
                   ]
+                },
+                {
+                  "type": "code",
+                  "language": "python",
+                  "content": "# Try This\n# Load ceylonmart_orders.csv into a Pandas DataFrame and inspect it.\n\nimport pandas as pd\n\n# your code here\n\n\n# --- Answer ---\nimport pandas as pd\n\ndf = pd.read_csv(\"ceylonmart_orders.csv\")\nprint(df.head())\nprint(df.shape)\n\n# Expected Output:\n# The first 5 rows of the orders table, followed by something like (240, 6)\n# meaning 240 rows and 6 columns."
                 }
               ]
             },
             {
               "id": "m6_s2_c2",
               "text": "Data Manipulation (Filtering, Merging)",
-              "summary": "Reshaping and combining datasets in Pandas — filtering rows to a subset, and merging separate tables together, much like an Excel VLOOKUP but far more powerful.",
+              "summary": "Reshaping and combining datasets in Pandas: filtering rows to a subset, and merging separate tables together, similar to an Excel VLOOKUP but far more powerful.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Filtering narrows a dataset down to just the rows you need — for example, only transactions above a certain amount. Merging combines two separate tables based on a shared key, similar in spirit to an Excel VLOOKUP, but able to join entire tables at once rather than one cell at a time."
+                  "content": "Filtering narrows a dataset down to just the rows you need, for example only transactions above a certain amount. Merging combines two separate tables based on a shared key, similar in spirit to an Excel VLOOKUP, but able to join entire tables at once rather than one cell at a time."
+                },
+                {
+                  "type": "code",
+                  "language": "python",
+                  "content": "# Try This\n# From ceylonmart_orders.csv, filter to orders from \"Colombo\" only.\n# Then merge in a loyalty_tier from a separate customers DataFrame.\n\nimport pandas as pd\n\norders = pd.read_csv(\"ceylonmart_orders.csv\")\ncustomers = pd.read_csv(\"ceylonmart_customers.csv\")  # columns: customer_name, loyalty_tier\n\n# your code here\n\n\n# --- Answer ---\ncolombo_orders = orders[orders[\"city\"] == \"Colombo\"]\nmerged = colombo_orders.merge(customers, on=\"customer_name\", how=\"left\")\nprint(merged.head())\n\n# Expected Output:\n# The Colombo orders, now with an extra loyalty_tier column attached."
                 }
               ]
             },
             {
               "id": "m6_s2_c3",
               "text": "Exploratory Data Analysis (EDA)",
-              "summary": "The first step of any real analysis — getting to know a dataset's shape, contents, and quirks before drawing conclusions from it.",
+              "summary": "The first step of any real analysis: getting to know a dataset's shape, contents, and quirks before drawing conclusions from it.",
               "blocks": [
                 {
                   "type": "list",
@@ -1508,20 +1552,30 @@
                   "items": [
                     "Check the size of the dataset and what each column represents.",
                     "Look for missing or unexpected values.",
-                    "Review summary statistics — averages, ranges, counts.",
+                    "Review summary statistics: averages, ranges, counts.",
                     "Spot obvious outliers before they distort later analysis."
                   ]
+                },
+                {
+                  "type": "code",
+                  "language": "python",
+                  "content": "# Try This\n# Run a quick EDA pass on ceylonmart_orders.csv.\n\nimport pandas as pd\n\ndf = pd.read_csv(\"ceylonmart_orders.csv\")\n\n# 1. Check for missing values in every column.\n# 2. Get summary statistics for the quantity column.\n# 3. Count how many orders came from each city.\n\n\n# --- Answer ---\nprint(df.isnull().sum())\nprint(df[\"quantity\"].describe())\nprint(df[\"city\"].value_counts())\n\n# Expected Output:\n# A column-by-column count of missing values (ideally all zero),\n# summary stats for quantity (count, mean, min, max, etc.),\n# and a count of orders per city, largest first."
                 }
               ]
             },
             {
               "id": "m6_s2_c4",
               "text": "Data Visualization (Matplotlib, Seaborn)",
-              "summary": "Python's two most common charting libraries — Matplotlib for full control, Seaborn for quicker, better-looking statistical charts.",
+              "summary": "Python's two most common charting libraries. Matplotlib gives full control, Seaborn gives quicker, better-looking statistical charts.",
               "blocks": [
                 {
                   "type": "text",
-                  "content": "Matplotlib is Python's foundational plotting library, giving fine control over every element of a chart. Seaborn is built on top of it and is optimized for statistical charts, producing polished results with far less code — most analysts default to Seaborn for everyday charts and drop into Matplotlib when they need finer control."
+                  "content": "Matplotlib is Python's foundational plotting library, with fine control over every element of a chart. Seaborn builds on top of it and is tuned for statistical charts, producing polished results with far less code. Most analysts default to Seaborn for everyday charts and drop into Matplotlib when they need finer control."
+                },
+                {
+                  "type": "code",
+                  "language": "python",
+                  "content": "# Try This\n# Plot Ceylon Mart's total sales by product category as a bar chart.\n\nimport pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_csv(\"ceylonmart_orders.csv\")\ndf[\"line_total\"] = df[\"quantity\"] * df[\"unit_price\"]\n\n# your code here\n\n\n# --- Answer ---\ncategory_sales = df.groupby(\"category\")[\"line_total\"].sum().reset_index()\nsns.barplot(data=category_sales, x=\"category\", y=\"line_total\")\nplt.title(\"Ceylon Mart: Sales by Category\")\nplt.show()\n\n# Expected Output:\n# A bar chart with one bar per product category, height showing total sales."
                 }
               ]
             },
@@ -1532,14 +1586,19 @@
               "blocks": [
                 {
                   "type": "text",
-                  "content": "A recurring reporting task — opening twelve monthly files, extracting the same figures, and combining them — can be written once as a Python script and then run automatically, saving hours of repetitive manual work every reporting cycle."
+                  "content": "A recurring reporting task, opening twelve monthly files, pulling the same figures out of each, combining them, can be written once as a Python script and run automatically, saving hours of repetitive manual work every reporting cycle."
+                },
+                {
+                  "type": "code",
+                  "language": "python",
+                  "content": "# Try This\n# Ceylon Mart stores one CSV per month in a folder called \"monthly_orders/\".\n# Combine all of them into a single DataFrame.\n\nimport pandas as pd\nimport glob\n\n# your code here\n\n\n# --- Answer ---\nfiles = glob.glob(\"monthly_orders/*.csv\")\nall_orders = pd.concat([pd.read_csv(f) for f in files], ignore_index=True)\nprint(all_orders.shape)\n\n# Expected Output:\n# The combined row and column count across every monthly file,\n# for example (2880, 6) if there are 12 months of 240 rows each."
                 }
               ]
             },
             {
               "id": "m6_s2_c6",
               "text": "Practical Accounting Use Cases",
-              "summary": "Bringing Python skills together to solve real accounting and finance problems — the payoff for everything learned in this module.",
+              "summary": "Bringing Python skills together to solve real accounting and finance problems, the payoff for everything learned in this module.",
               "blocks": [
                 {
                   "type": "list",
@@ -1549,6 +1608,11 @@
                     "Consolidating monthly reports from dozens of separate Excel files into one.",
                     "Flagging unusual or potentially fraudulent transactions for manual review."
                   ]
+                },
+                {
+                  "type": "code",
+                  "language": "python",
+                  "content": "# Try This\n# Ceylon Mart's accountant wants to reconcile the bank statement against\n# the internal sales ledger. Flag any order amount that doesn't appear\n# in the bank statement at all.\n\nimport pandas as pd\n\nledger = pd.read_csv(\"ceylonmart_orders.csv\")\nledger[\"line_total\"] = ledger[\"quantity\"] * ledger[\"unit_price\"]\nbank_statement = pd.read_csv(\"ceylonmart_bank_statement.csv\")  # column: amount\n\n# your code here\n\n\n# --- Answer ---\nunmatched = ledger[~ledger[\"line_total\"].isin(bank_statement[\"amount\"])]\nprint(\"Orders with no matching bank entry:\")\nprint(unmatched[[\"order_id\", \"line_total\"]])\n\n# Expected Output:\n# A short list of order IDs and amounts that couldn't be matched\n# to a bank transaction, worth a manual look."
                 }
               ]
             }
@@ -1567,7 +1631,7 @@
           "blocks": [
             {
               "type": "text",
-              "content": "Behind almost every business system — your ERP, your bank's app, an e-commerce site — sits a database, quietly storing and organizing the data that system depends on. Understanding databases is what makes SQL, covered next, make sense."
+              "content": "Behind almost every business system, your ERP, your bank's app, an e-commerce site, sits a database, quietly storing and organizing the data that system depends on. Understanding databases is what makes SQL, covered next, make sense."
             },
             {
               "type": "list",
@@ -1607,7 +1671,7 @@
         {
           "id": "m8_s3",
           "text": "Language Subsets: DQL, DDL, DML",
-          "summary": "SQL, the language used to work with databases, is split into subsets depending on the task — querying data, defining structure, or modifying records.",
+          "summary": "SQL, the language used to work with databases, splits into subsets depending on the task: querying data, defining structure, or modifying records.",
           "blocks": [
             {
               "type": "table",
@@ -1621,17 +1685,17 @@
                 [
                   "DQL",
                   "Data Query Language",
-                  "Retrieving data — SELECT"
+                  "Retrieving data, SELECT"
                 ],
                 [
                   "DDL",
                   "Data Definition Language",
-                  "Defining structure — CREATE, ALTER"
+                  "Defining structure, CREATE, ALTER"
                 ],
                 [
                   "DML",
                   "Data Manipulation Language",
-                  "Changing data — INSERT, UPDATE, DELETE"
+                  "Changing data, INSERT, UPDATE, DELETE"
                 ]
               ]
             }
@@ -1640,22 +1704,22 @@
         {
           "id": "m8_s4",
           "text": "Database Design & Normalization Paradigms",
-          "summary": "Database design principles that reduce duplicate data and keep information consistent, primarily through a process called normalization.",
+          "summary": "Database design principles that reduce duplicate data and keep information consistent, mainly through a process called normalization.",
           "blocks": [
             {
               "type": "text",
-              "content": "Normalization is the process of organizing a database's tables so that each piece of data is stored in exactly one place. Done well, it means updating a customer's address once updates it everywhere that customer is referenced, rather than requiring the same edit in dozens of duplicated records."
+              "content": "Normalization is the process of organizing a database's tables so each piece of data is stored in exactly one place. Done well, updating a customer's address once updates it everywhere that customer is referenced, instead of requiring the same edit across dozens of duplicated records."
             }
           ]
         },
         {
           "id": "m8_s5",
           "text": "Enterprise Infrastructure Systems",
-          "summary": "The broader infrastructure that supports databases in a business setting — servers, backups, and security layers working together.",
+          "summary": "The broader infrastructure that supports databases in a business setting: servers, backups, and security layers working together.",
           "blocks": [
             {
               "type": "text",
-              "content": "A database doesn't run in isolation — it depends on servers to host it, backup systems to protect against data loss, and security controls to ensure only authorized people can access or change it."
+              "content": "A database doesn't run in isolation. It depends on servers to host it, backup systems to protect against data loss, and security controls to make sure only authorized people can access or change it."
             }
           ]
         },
@@ -1684,18 +1748,57 @@
         {
           "id": "m9_s1",
           "text": "Introduction to SQL Syntax & Rules",
-          "summary": "SQL (Structured Query Language) is the standard language for asking questions of a database — learning its basic rules is the first step to querying data directly.",
+          "summary": "SQL (Structured Query Language) is the standard language for asking questions of a database. Learning its basic rules is the first step to querying data directly.",
           "blocks": [
             {
               "type": "text",
-              "content": "SQL is the near-universal language for working with relational databases — almost every database system, from a small business tool to an enterprise data warehouse, understands it. Its syntax reads close to plain English, making it one of the more approachable technical skills in this course."
+              "content": "SQL is the near-universal language for working with relational databases. Almost every database system, from a small business tool to an enterprise data warehouse, understands it. Its syntax reads close to plain English, which makes it one of the more approachable technical skills in this course."
+            },
+            {
+              "type": "text",
+              "content": "Every SQL exercise in this module uses the same small database for Ceylon Mart, so you can build on what you've already written as you go."
+            },
+            {
+              "type": "table",
+              "title": "The Ceylon Mart Database",
+              "headers": [
+                "Table",
+                "Key Columns"
+              ],
+              "rows": [
+                [
+                  "Customers",
+                  "customer_id, customer_name, city, join_date"
+                ],
+                [
+                  "Products",
+                  "product_id, product_name, category, unit_price"
+                ],
+                [
+                  "Employees",
+                  "employee_id, employee_name, department"
+                ],
+                [
+                  "Orders",
+                  "order_id, customer_id, employee_id, order_date"
+                ],
+                [
+                  "OrderItems",
+                  "order_item_id, order_id, product_id, quantity"
+                ]
+              ]
+            },
+            {
+              "type": "code",
+              "language": "sql",
+              "content": "-- Try This\n-- Write a query that returns every column and every row from Customers.\n\n\n-- Answer\nSELECT * FROM Customers;"
             }
           ]
         },
         {
           "id": "m9_s2",
           "text": "Querying (SELECT, WHERE, ORDER BY, DISTINCT)",
-          "summary": "The core building blocks of every SQL query — selecting which columns you want, filtering which rows, and controlling the order of results.",
+          "summary": "The core building blocks of every SQL query: selecting which columns you want, filtering which rows, and controlling the order of results.",
           "blocks": [
             {
               "type": "table",
@@ -1722,6 +1825,11 @@
                   "Remove duplicate rows from the results"
                 ]
               ]
+            },
+            {
+              "type": "code",
+              "language": "sql",
+              "content": "-- Try This\n-- 1. List all customers from \"Colombo\", sorted by join_date (newest first).\n-- 2. List the distinct cities Ceylon Mart has customers in.\n\n\n-- Answer\nSELECT customer_name, join_date\nFROM Customers\nWHERE city = 'Colombo'\nORDER BY join_date DESC;\n\nSELECT DISTINCT city\nFROM Customers;"
             }
           ]
         },
@@ -1738,13 +1846,18 @@
                 "<strong>Logical operators:</strong> AND, OR, NOT to combine multiple conditions.",
                 "<strong>Pattern matching:</strong> LIKE, for partial text matches."
               ]
+            },
+            {
+              "type": "code",
+              "language": "sql",
+              "content": "-- Try This\n-- Find products in the \"Beverages\" category priced above Rs. 500.\n\n\n-- Answer\nSELECT product_name, unit_price\nFROM Products\nWHERE category = 'Beverages'\n  AND unit_price > 500;"
             }
           ]
         },
         {
           "id": "m9_s4",
           "text": "Aggregation Functions (COUNT, SUM, AVG)",
-          "summary": "Aggregation functions collapse many rows into a single summary value — the SQL equivalent of an Excel pivot table calculation.",
+          "summary": "Aggregation functions collapse many rows into a single summary value, the SQL equivalent of an Excel pivot table calculation.",
           "blocks": [
             {
               "type": "table",
@@ -1771,24 +1884,34 @@
                   "The smallest or largest value"
                 ]
               ]
+            },
+            {
+              "type": "code",
+              "language": "sql",
+              "content": "-- Try This\n-- Find the total quantity sold and the average quantity per order line,\n-- across all of OrderItems.\n\n\n-- Answer\nSELECT\n    SUM(quantity) AS total_quantity_sold,\n    AVG(quantity) AS avg_quantity_per_line\nFROM OrderItems;"
             }
           ]
         },
         {
           "id": "m9_s5",
           "text": "Grouping (GROUP BY, HAVING)",
-          "summary": "GROUP BY splits data into categories before aggregating, and HAVING filters those grouped results — together they answer 'how much by category' questions.",
+          "summary": "GROUP BY splits data into categories before aggregating, and HAVING filters those grouped results. Together they answer 'how much, by category' questions.",
           "blocks": [
             {
               "type": "text",
-              "content": "GROUP BY is what turns a simple total into a breakdown — for example, splitting total sales by region instead of returning one company-wide number. HAVING then lets you filter those grouped results, such as keeping only regions where sales exceeded a certain amount."
+              "content": "GROUP BY is what turns a simple total into a breakdown, for example splitting total sales by region instead of returning one company-wide number. HAVING then lets you filter those grouped results, such as keeping only regions where sales exceeded a certain amount."
+            },
+            {
+              "type": "code",
+              "language": "sql",
+              "content": "-- Try This\n-- Find total quantity sold per product, but only show products where\n-- total quantity sold exceeds 100 units.\n\n\n-- Answer\nSELECT\n    product_id,\n    SUM(quantity) AS total_quantity\nFROM OrderItems\nGROUP BY product_id\nHAVING SUM(quantity) > 100;"
             }
           ]
         },
         {
           "id": "m9_s6",
           "text": "Joins (INNER, LEFT, RIGHT, FULL)",
-          "summary": "Joins combine rows from two or more tables based on a matching key — the SQL equivalent of an Excel VLOOKUP, but able to combine entire tables at once.",
+          "summary": "Joins combine rows from two or more tables based on a matching key, the SQL equivalent of an Excel VLOOKUP, but able to combine entire tables at once.",
           "blocks": [
             {
               "type": "table",
@@ -1815,6 +1938,11 @@
                   "All rows from both tables, matched where possible"
                 ]
               ]
+            },
+            {
+              "type": "code",
+              "language": "sql",
+              "content": "-- Try This\n-- 1. List every order with the customer's name and order date.\n-- 2. List customers who have never placed an order.\n\n\n-- Answer\nSELECT o.order_id, c.customer_name, o.order_date\nFROM Orders o\nINNER JOIN Customers c ON o.customer_id = c.customer_id;\n\nSELECT c.customer_name\nFROM Customers c\nLEFT JOIN Orders o ON c.customer_id = o.customer_id\nWHERE o.order_id IS NULL;"
             }
           ]
         },
@@ -1844,6 +1972,11 @@
                   "Remove rows from a table"
                 ]
               ]
+            },
+            {
+              "type": "code",
+              "language": "sql",
+              "content": "-- Try This\n-- 1. Add a new customer, \"K. Silva\" from Kandy, joining today.\n-- 2. Raise the price of product_id 5 to Rs. 620.\n-- 3. Remove order_id 1042, which was cancelled.\n\n\n-- Answer\nINSERT INTO Customers (customer_name, city, join_date)\nVALUES ('K. Silva', 'Kandy', CURRENT_DATE);\n\nUPDATE Products\nSET unit_price = 620\nWHERE product_id = 5;\n\nDELETE FROM Orders\nWHERE order_id = 1042;"
             }
           ]
         },
@@ -1860,13 +1993,18 @@
                 "Calculating monthly sales totals broken down by region.",
                 "Listing all outstanding invoices past their due date."
               ]
+            },
+            {
+              "type": "code",
+              "language": "sql",
+              "content": "-- Try This\n-- Find Ceylon Mart's top 5 customers by total amount spent, using\n-- Orders, OrderItems, and Products.\n\n\n-- Answer\nSELECT\n    c.customer_name,\n    SUM(oi.quantity * p.unit_price) AS total_spent\nFROM Customers c\nJOIN Orders o ON c.customer_id = o.customer_id\nJOIN OrderItems oi ON o.order_id = oi.order_id\nJOIN Products p ON oi.product_id = p.product_id\nGROUP BY c.customer_name\nORDER BY total_spent DESC\nLIMIT 5;"
             }
           ]
         },
         {
           "id": "m9_s9",
           "text": "Benefits and Limitations of SQL",
-          "summary": "SQL is powerful and near-universal for working with structured data, but it has limits worth knowing before relying on it for everything.",
+          "summary": "SQL is powerful and near-universal for structured data, but it has limits worth knowing before relying on it for everything.",
           "blocks": [
             {
               "type": "table",
@@ -1885,10 +2023,14 @@
                   "Doesn't handle complex statistical modelling on its own"
                 ],
                 [
-                  "Precise and repeatable — the same query always returns the same result",
+                  "Precise and repeatable, the same query always returns the same result",
                   "Complex logic can become hard to read as queries grow"
                 ]
               ]
+            },
+            {
+              "type": "text",
+              "content": "A quick reflection exercise: Ceylon Mart's manager asks you to predict next month's sales using SQL alone. Could you do it? SQL can easily give you the historical totals to work from, but predicting a future number is a job for the predictive analytics techniques from Module 2, often built in Python, not for SQL itself. Knowing where SQL's job ends is as useful as knowing SQL."
             }
           ]
         }
@@ -1905,25 +2047,25 @@
           "blocks": [
             {
               "type": "text",
-              "content": "BI is less about a single tool and more about an organizational capability — combining data, technology, and people to consistently turn raw data into decisions. Larger organizations often have a dedicated BI team; smaller ones fold the responsibility into finance or operations."
+              "content": "BI is less about a single tool and more about an organizational capability, combining data, technology, and people to consistently turn raw data into decisions. Larger organizations often have a dedicated BI team; smaller ones fold the responsibility into finance or operations."
             }
           ]
         },
         {
           "id": "m10_s2",
           "text": "BI Architecture & Data Integration Pipelines",
-          "summary": "BI systems pull data from multiple source systems into one place before it can be visualized — this behind-the-scenes plumbing is the data pipeline.",
+          "summary": "BI systems pull data from multiple source systems into one place before it can be visualized. This behind-the-scenes plumbing is the data pipeline.",
           "blocks": [
             {
               "type": "text",
-              "content": "A dashboard is only as good as the data feeding it. Before any chart can be built, data typically needs to be extracted from several source systems (sales, finance, HR), combined, and loaded somewhere it can be queried — this integration work is what a BI architecture is built to handle."
+              "content": "A dashboard is only as good as the data feeding it. Before any chart can be built, data typically needs to be pulled from several source systems (sales, finance, HR), combined, and loaded somewhere it can be queried. That integration work is what a BI architecture is built to handle."
             }
           ]
         },
         {
           "id": "m10_s3",
           "text": "Key Performance Indicators (KPI Frameworks)",
-          "summary": "KPIs are the specific, measurable metrics an organization tracks to judge whether it's meeting its goals — the numbers every BI dashboard is built around.",
+          "summary": "KPIs are the specific, measurable metrics an organization tracks to judge whether it's meeting its goals, the numbers every BI dashboard is built around.",
           "blocks": [
             {
               "type": "list",
@@ -1943,18 +2085,18 @@
           "blocks": [
             {
               "type": "text",
-              "content": "Power BI connects to your data sources, lets you build a data model linking related tables together, and uses DAX (Data Analysis Expressions) — a formula language similar in spirit to Excel formulas — to create calculated metrics that update automatically as new data flows in."
+              "content": "Power BI connects to your data sources, lets you build a data model linking related tables together, and uses DAX (Data Analysis Expressions), a formula language similar in spirit to Excel formulas, to create calculated metrics that update automatically as new data flows in."
             }
           ]
         },
         {
           "id": "m10_s5",
           "text": "Data Visualization & Dashboard Componentry",
-          "summary": "The building blocks of an effective dashboard — the right chart types, layout, and interactivity — assembled to answer a business question at a glance.",
+          "summary": "The building blocks of an effective dashboard: the right chart types, layout, and interactivity, assembled to answer a business question at a glance.",
           "blocks": [
             {
               "type": "text",
-              "content": "A good dashboard is designed around the question the viewer needs answered, not around showing off every metric available. Layout, chart choice, and interactivity (like filters) all matter as much as the underlying data."
+              "content": "A good dashboard is designed around the question the viewer needs answered, not around showing off every metric available. Layout, chart choice, and interactivity, like filters, matter just as much as the underlying data."
             }
           ]
         },
@@ -1965,7 +2107,7 @@
           "blocks": [
             {
               "type": "text",
-              "content": "A dashboard that shows outdated numbers can be worse than no dashboard at all, because it looks current even when it isn't. Publishing strategy covers who can see a report and where; refresh strategy covers how often its underlying data updates."
+              "content": "A dashboard showing outdated numbers can be worse than no dashboard at all, because it still looks current even when it isn't. Publishing strategy covers who can see a report and where; refresh strategy covers how often its underlying data updates."
             }
           ]
         }
@@ -1978,29 +2120,29 @@
         {
           "id": "m11_s1",
           "text": "Introduction (Storytelling vs Reporting)",
-          "summary": "A report shows what the data says; a data story explains why it matters and what to do about it — storytelling is what makes analysis actually change decisions.",
+          "summary": "A report shows what the data says; a data story explains why it matters and what to do about it. Storytelling is what makes analysis actually change decisions.",
           "blocks": [
             {
               "type": "text",
-              "content": "It's possible to build a technically perfect report that nobody acts on, because it presents numbers without a clear point. Data storytelling is the deliberate practice of shaping data into a narrative that leads a specific audience toward a specific decision."
+              "content": "It's entirely possible to build a technically perfect report that nobody acts on, simply because it presents numbers without a clear point. Data storytelling is the deliberate practice of shaping data into a narrative that leads a specific audience toward a specific decision."
             }
           ]
         },
         {
           "id": "m11_s2",
           "text": "Components (Data, Narrative, Visuals)",
-          "summary": "Effective data storytelling combines three elements together — accurate data, a clear narrative, and visuals that support (not distract from) the point.",
+          "summary": "Effective data storytelling combines three elements: accurate data, a clear narrative, and visuals that support, rather than distract from, the point.",
           "blocks": [
             {
               "type": "text",
-              "content": "Remove any one of the three components and the story weakens: data alone is dry and easy to misread, narrative without data is just opinion, and visuals without a clear point become decoration rather than communication."
+              "content": "Remove any one of the three and the story weakens. Data alone is dry and easy to misread, narrative without data is just opinion, and visuals without a clear point become decoration rather than communication."
             }
           ]
         },
         {
           "id": "m11_s3",
           "text": "Understanding Audiences (Execs vs Ops)",
-          "summary": "The same data needs to be presented differently depending on the audience — executives typically want the headline and the decision; operational teams want the detail.",
+          "summary": "The same data needs different presentation depending on the audience. Executives typically want the headline and the decision; operational teams want the detail.",
           "blocks": [
             {
               "type": "table",
@@ -2028,7 +2170,7 @@
         {
           "id": "m11_s4",
           "text": "Story Structure (Context, Problem, Insight)",
-          "summary": "A well-structured data story follows a simple arc — set the context, state the problem the data reveals, then land on the insight or recommendation.",
+          "summary": "A well-structured data story follows a simple arc: set the context, state the problem the data reveals, then land on the insight or recommendation.",
           "blocks": [
             {
               "type": "list",
@@ -2048,14 +2190,14 @@
           "blocks": [
             {
               "type": "text",
-              "content": "A single number rarely tells the full story — \"revenue is $2M\" means very little without knowing whether that's up or down, and by how much. Showing the trend behind a number is often more informative than the number itself."
+              "content": "A single number rarely tells the full story. \"Revenue is $2M\" means very little without knowing whether that's up or down, and by how much. Showing the trend behind a number is often more informative than the number itself."
             }
           ]
         },
         {
           "id": "m11_s6",
           "text": "Storytelling Narrative Techniques",
-          "summary": "Techniques that make a data story land — focusing on one central message, using comparison to add context, and cutting anything that doesn't support the point.",
+          "summary": "Techniques that make a data story land: focusing on one central message, using comparison to add context, and cutting anything that doesn't support the point.",
           "blocks": [
             {
               "type": "list",
@@ -2063,7 +2205,7 @@
               "items": [
                 "Lead with the takeaway, not the method used to get there.",
                 "Use comparisons and benchmarks to give a number meaning.",
-                "Cut anything — data or design — that doesn't serve the central point."
+                "Cut anything, data or design, that doesn't serve the central point."
               ]
             }
           ]
@@ -2092,7 +2234,7 @@
           "blocks": [
             {
               "type": "text",
-              "content": "Presenting to executives generally means leading with the recommendation first, followed by only the supporting evidence needed to justify it — the opposite order from how the analysis itself was actually built."
+              "content": "Presenting to executives generally means leading with the recommendation first, then following with only the supporting evidence needed to justify it, the opposite order from how the analysis itself was actually built."
             }
           ]
         }
@@ -2105,7 +2247,7 @@
         {
           "id": "m12_s1",
           "text": "Storage (Files, Databases, Warehouses, Lakes)",
-          "summary": "Data can be stored in increasingly structured ways — from loose files, to databases, to purpose-built warehouses and lakes for large-scale analytics.",
+          "summary": "Data can be stored in increasingly structured ways, from loose files, to databases, to purpose-built warehouses and lakes for large-scale analytics.",
           "blocks": [
             {
               "type": "table",
@@ -2117,7 +2259,7 @@
               "rows": [
                 [
                   "Files",
-                  "Simple, small-scale storage — a single spreadsheet or document"
+                  "Simple, small-scale storage, a single spreadsheet or document"
                 ],
                 [
                   "Databases",
@@ -2138,7 +2280,7 @@
         {
           "id": "m12_s2",
           "text": "Big Data Fundamentals (The 5 V's Matrix)",
-          "summary": "Big Data is commonly described using five characteristics, known as the 5 V's, that distinguish it from traditional, smaller datasets.",
+          "summary": "Big Data is commonly described using five characteristics, the 5 V's, that set it apart from traditional, smaller datasets.",
           "blocks": [
             {
               "type": "list",
@@ -2169,12 +2311,12 @@
               "rows": [
                 [
                   "ETL",
-                  "Extract → Transform → Load (transformed before loading)",
+                  "Extract, then Transform, then Load (transformed before loading)",
                   "Traditional, on-premises systems"
                 ],
                 [
                   "ELT",
-                  "Extract → Load → Transform (transformed after loading)",
+                  "Extract, then Load, then Transform (transformed after loading)",
                   "Modern cloud data warehouses"
                 ]
               ]
@@ -2184,11 +2326,11 @@
         {
           "id": "m12_s4",
           "text": "AI Integration & Future Automated Analytics",
-          "summary": "AI is increasingly being built directly into data platforms, automating tasks like anomaly detection and report generation that once required a human analyst.",
+          "summary": "AI is increasingly built directly into data platforms, automating tasks like anomaly detection and report generation that once needed a human analyst.",
           "blocks": [
             {
               "type": "text",
-              "content": "Modern data platforms increasingly embed AI directly into the pipeline — automatically flagging unusual data, suggesting data quality fixes, or even drafting a first version of a report — shifting the analyst's role further toward review and judgement rather than manual production."
+              "content": "Modern data platforms increasingly embed AI directly into the pipeline, automatically flagging unusual data, suggesting data quality fixes, or even drafting a first version of a report. That's shifting the analyst's role further toward review and judgement rather than manual production."
             }
           ]
         }
@@ -2201,18 +2343,18 @@
         {
           "id": "m13_s1",
           "text": "Generative AI Fundamentals & LLM Co-Drivers",
-          "summary": "Large Language Models (LLMs) are the technology behind tools like ChatGPT and Claude — trained on vast amounts of text to generate human-like responses and assist with analytical work.",
+          "summary": "Large Language Models (LLMs) are the technology behind tools like ChatGPT and Claude, trained on vast amounts of text to generate human-like responses and assist with analytical work.",
           "blocks": [
             {
               "type": "text",
-              "content": "An LLM is trained on enormous amounts of text and learns statistical patterns in language well enough to generate coherent, useful responses — including explanations, code, and drafted reports. For analysts, these tools are increasingly used as a \"co-driver\" for everyday tasks rather than a replacement for judgement."
+              "content": "An LLM is trained on enormous amounts of text and learns statistical patterns in language well enough to generate coherent, useful responses, including explanations, code, and drafted reports. For analysts, these tools are increasingly used as a \"co-driver\" for everyday tasks rather than a replacement for judgement."
             }
           ]
         },
         {
           "id": "m13_s2",
           "text": "AI-Powered Analytics, Cleaning & Reporting",
-          "summary": "AI tools can now assist directly with everyday analytics tasks — cleaning messy data, drafting reports, and summarizing findings — speeding up work analysts previously did entirely by hand.",
+          "summary": "AI tools can now assist directly with everyday analytics tasks: cleaning messy data, drafting reports, and summarizing findings, speeding up work analysts previously did entirely by hand.",
           "blocks": [
             {
               "type": "list",
@@ -2228,7 +2370,7 @@
         {
           "id": "m13_s3",
           "text": "Prompt Engineering & Analytical Input Designs",
-          "summary": "Prompt engineering is the skill of writing clear, specific instructions to an AI tool to get a useful, accurate response — increasingly a core analyst skill.",
+          "summary": "Prompt engineering is the skill of writing clear, specific instructions to an AI tool to get a useful, accurate response, increasingly a core analyst skill.",
           "blocks": [
             {
               "type": "list",
@@ -2244,7 +2386,7 @@
         {
           "id": "m13_s4",
           "text": "Responsible AI, Hallucination Checks & Ethics",
-          "summary": "AI tools can produce confident-sounding but incorrect answers, known as hallucinations — responsible use means always verifying outputs before relying on them.",
+          "summary": "AI tools can produce confident-sounding but incorrect answers, known as hallucinations. Responsible use means always verifying outputs before relying on them.",
           "blocks": [
             {
               "type": "list",
@@ -2266,11 +2408,11 @@
         {
           "id": "m14_s1",
           "text": "Data Governance, Stewardship & Quality Matrix",
-          "summary": "Data governance is the set of policies and responsibilities that ensure an organization's data stays accurate, secure, and properly managed over time.",
+          "summary": "Data governance is the set of policies and responsibilities that keep an organization's data accurate, secure, and properly managed over time.",
           "blocks": [
             {
               "type": "text",
-              "content": "Without governance, data quality tends to degrade as an organization grows — different teams define the same metric differently, and nobody is accountable for fixing errors. Governance assigns clear ownership (stewardship) and standards to prevent that."
+              "content": "Without governance, data quality tends to degrade as an organization grows. Different teams define the same metric differently, and nobody is accountable for fixing errors. Governance assigns clear ownership (stewardship) and standards to prevent that."
             }
           ]
         },
@@ -2281,7 +2423,7 @@
           "blocks": [
             {
               "type": "text",
-              "content": "Security is fundamentally about access control — ensuring the right people can see and edit the right data, and that everyone else can't. This includes basics like password policies and permission settings, up through more advanced protections like encryption."
+              "content": "Security is fundamentally about access control: making sure the right people can see and edit the right data, and that everyone else can't. This includes basics like password policies and permission settings, up through more advanced protections like encryption."
             }
           ]
         },
@@ -2292,14 +2434,14 @@
           "blocks": [
             {
               "type": "text",
-              "content": "Privacy is distinct from security: security asks who can access data, while privacy asks whether it's appropriate to collect and use that data about a person in the first place — and for how long it should be kept before being deleted."
+              "content": "Privacy is distinct from security. Security asks who can access data; privacy asks whether it's appropriate to collect and use that data about a person in the first place, and for how long it should be kept before being deleted."
             }
           ]
         },
         {
           "id": "m14_s4",
           "text": "Global Regulatory Infrastructure (GDPR, CCPA)",
-          "summary": "Governments worldwide have introduced data protection laws — GDPR in Europe and CCPA in California among the most influential — that set legal requirements for handling personal data.",
+          "summary": "Governments worldwide have introduced data protection laws, GDPR in Europe and CCPA in California among the most influential, setting legal requirements for handling personal data.",
           "blocks": [
             {
               "type": "table",
@@ -2327,11 +2469,11 @@
         {
           "id": "m14_s5",
           "text": "Data Ethics, Algorithmic Bias & Transparency",
-          "summary": "Beyond legal compliance, data ethics asks whether using data in a particular way is fair — including whether an AI or algorithm might unintentionally discriminate against certain groups.",
+          "summary": "Beyond legal compliance, data ethics asks whether using data in a particular way is fair, including whether an AI or algorithm might unintentionally discriminate against certain groups.",
           "blocks": [
             {
               "type": "text",
-              "content": "Something can be entirely legal and still be unethical. Algorithmic bias occurs when a model, trained on historical data that reflects past inequalities, ends up making decisions that unfairly disadvantage certain groups — a risk that grows as more decisions get automated."
+              "content": "Something can be entirely legal and still be unethical. Algorithmic bias happens when a model, trained on historical data that reflects past inequalities, ends up making decisions that unfairly disadvantage certain groups, a risk that grows as more decisions get automated."
             }
           ]
         }
