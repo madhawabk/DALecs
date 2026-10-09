@@ -2048,6 +2048,68 @@
             {
               "type": "text",
               "content": "BI is less about a single tool and more about an organizational capability, combining data, technology, and people to consistently turn raw data into decisions. Larger organizations often have a dedicated BI team; smaller ones fold the responsibility into finance or operations."
+            },
+            {
+              "type": "text",
+              "content": "Dashboards built without a process tend to turn into a pile of charts. The dashboard assignment in this course follows a 12-stage workflow, and the topics in this module each pick up a different part of it. Skim the whole list now so you know where you're heading."
+            },
+            {
+              "type": "table",
+              "title": "The 12-Stage Dashboard Development Workflow",
+              "headers": [
+                "Stage",
+                "What you do"
+              ],
+              "rows": [
+                [
+                  "1. Choose your dataset",
+                  "Read the dataset description and review the column dictionary before building anything."
+                ],
+                [
+                  "2. Understand the data",
+                  "Identify the unit of observation, time period, dimensions, measures, categories, and limitations. Write a short data-understanding note."
+                ],
+                [
+                  "3. Profile the data",
+                  "Check row and column counts, data types, missing values, duplicates, date fields, unusual values, and major outliers. Record the issues you find."
+                ],
+                [
+                  "4. Define the audience",
+                  "Pick a realistic audience, such as utility management, customer service management, an economic analyst, a policy analyst, or a strategy team."
+                ],
+                [
+                  "5. Define analytical questions",
+                  "Write questions the dashboard should answer. They should be analytical, not simple lookups."
+                ],
+                [
+                  "6. Select KPIs",
+                  "Choose the headline KPIs. For each one, state its definition and why it matters."
+                ],
+                [
+                  "7. Explore the data",
+                  "Use tables, charts, and summaries to look for trends, group differences, relationships, and anomalies before the final design."
+                ],
+                [
+                  "8. Design the dashboard",
+                  "Sketch a wireframe or layout first. Group related information and set a clear visual hierarchy."
+                ],
+                [
+                  "9. Build interactions",
+                  "Add meaningful filters or slicers, using time, geography, category, or other relevant dimensions."
+                ],
+                [
+                  "10. Validate",
+                  "Recalculate important numbers outside the dashboard. Test filters, totals, dates, labels, units, and blanks."
+                ],
+                [
+                  "11. Interpret",
+                  "Write at least 3 key insights, and keep what you observed separate from what might explain it."
+                ],
+                [
+                  "12. Present",
+                  "Submit the dashboard with its supporting documentation, and be ready to explain your design choices and findings."
+                ]
+              ]
             }
           ]
         },
@@ -2059,6 +2121,59 @@
             {
               "type": "text",
               "content": "A dashboard is only as good as the data feeding it. Before any chart can be built, data typically needs to be pulled from several source systems (sales, finance, HR), combined, and loaded somewhere it can be queried. That integration work is what a BI architecture is built to handle."
+            },
+            {
+              "type": "text",
+              "content": "Stages 1 to 3 of the workflow all happen before you build anything. Read the dataset description and review the column dictionary first, then write a short data-understanding note and profile the data. Skip this and you end up summing the wrong field, or trusting a date column that's really just text."
+            },
+            {
+              "type": "list",
+              "title": "What Goes in Your Data-Understanding Note (Stage 2)",
+              "items": [
+                "<strong>Unit of observation:</strong> What one row actually represents, for example one order line, one customer, or one country in one year.",
+                "<strong>Time period:</strong> The dates the data covers.",
+                "<strong>Dimensions:</strong> The fields you can slice by, such as region, category, or customer type.",
+                "<strong>Measures:</strong> The numeric fields you add up or average, such as sales, kWh, or population.",
+                "<strong>Categories and limitations:</strong> The groups that exist in the data, and anything that limits what it can tell you."
+              ]
+            },
+            {
+              "type": "table",
+              "title": "Data Profiling Checks (Stage 3)",
+              "headers": [
+                "Check",
+                "What you're looking for"
+              ],
+              "rows": [
+                [
+                  "Row and column count",
+                  "Do they match the source and the column dictionary?"
+                ],
+                [
+                  "Data types",
+                  "Are numbers stored as numbers and dates as dates, not text?"
+                ],
+                [
+                  "Missing values",
+                  "Which columns have blanks, and how many?"
+                ],
+                [
+                  "Duplicates",
+                  "Repeated rows that would double-count your totals."
+                ],
+                [
+                  "Date fields",
+                  "Valid dates, the full expected range, no strange formats."
+                ],
+                [
+                  "Unusual values and outliers",
+                  "Impossible values, or extreme ones that need investigating before you decide what to do with them."
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Write down every issue you find. You'll need that list again when you validate the dashboard."
             }
           ]
         },
@@ -2075,6 +2190,55 @@
                 "Trackable consistently over time.",
                 "Owned by someone accountable for moving it in the right direction."
               ]
+            },
+            {
+              "type": "text",
+              "content": "A dashboard should lead with 4 to 6 headline KPIs. Each one needs a clear label, a unit, and a written definition, plus a sentence on why it matters to the audience. If you can't explain why a KPI matters, it probably doesn't belong in the headline strip."
+            },
+            {
+              "type": "table",
+              "title": "Documenting a KPI (Ceylon Mart Example)",
+              "headers": [
+                "KPI",
+                "Definition",
+                "Why it matters",
+                "Unit"
+              ],
+              "rows": [
+                [
+                  "Total Sales",
+                  "Quantity multiplied by unit price, summed across all order lines in the selected period",
+                  "Shows the overall size of the business and whether it's growing",
+                  "Rs."
+                ],
+                [
+                  "Order Count",
+                  "Number of distinct orders placed in the selected period",
+                  "Shows how busy the stores are, separate from how much each order is worth",
+                  "Orders"
+                ],
+                [
+                  "Average Order Value",
+                  "Total Sales divided by Order Count",
+                  "Shows whether customers are spending more or less each time they buy",
+                  "Rs. per order"
+                ],
+                [
+                  "Repeat Customer Rate",
+                  "Customers with more than one order, divided by all customers who ordered in the period",
+                  "A signal of loyalty, and cheaper growth than winning new customers",
+                  "%"
+                ]
+              ]
+            },
+            {
+              "type": "list",
+              "title": "Get the Aggregation Right",
+              "items": [
+                "<strong>Quantities can be summed:</strong> A total population can be added up across countries for one year, and so can sales or kWh.",
+                "<strong>Rates and percentages cannot:</strong> GDP growth, margins, and repeat-customer rates should never be summed across rows. Recalculate them from their parts, or use an average that actually makes sense.",
+                "<strong>Use consistent units:</strong> LKR, kWh, %, USD bn, people, years. Show the unit on every KPI."
+              ]
             }
           ]
         },
@@ -2086,6 +2250,33 @@
             {
               "type": "text",
               "content": "Power BI connects to your data sources, lets you build a data model linking related tables together, and uses DAX (Data Analysis Expressions), a formula language similar in spirit to Excel formulas, to create calculated metrics that update automatically as new data flows in."
+            },
+            {
+              "type": "list",
+              "title": "Build Filters That Earn Their Place (Stage 9)",
+              "items": [
+                "Aim for at least 3 meaningful filters or slicers. If you use fewer, be ready to justify why.",
+                "Choose dimensions that suit the data, such as time, geography, or customer or economic category.",
+                "Every filter should change something meaningful. A slicer that moves no visual just confuses people.",
+                "After adding a filter, check that totals still agree across visuals and don't contradict each other."
+              ]
+            },
+            {
+              "type": "list",
+              "title": "Get the Data Model Ready",
+              "items": [
+                "<strong>Dates as dates:</strong> Treat time fields as true dates or numbers. Stored as text, months sort alphabetically and April lands before January.",
+                "<strong>Document your measures:</strong> Write down what every calculated measure does and how it's worked out."
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Here's what documented measures can look like for Ceylon Mart. Notice that Average Order Value is built from two other measures. It's recalculated from its parts, never summed across rows."
+            },
+            {
+              "type": "code",
+              "language": "dax",
+              "content": "-- Total Sales (Rs.): quantity x unit price, summed over order lines\nTotal Sales = SUMX ( OrderItems, OrderItems[quantity] * RELATED ( Products[unit_price] ) )\n\n-- Order Count: number of distinct orders\nOrder Count = DISTINCTCOUNT ( Orders[order_id] )\n\n-- Average Order Value (Rs. per order): a ratio, so recalculate it from its parts\nAverage Order Value = DIVIDE ( [Total Sales], [Order Count] )"
             }
           ]
         },
@@ -2097,6 +2288,76 @@
             {
               "type": "text",
               "content": "A good dashboard is designed around the question the viewer needs answered, not around showing off every metric available. Layout, chart choice, and interactivity, like filters, matter just as much as the underlying data."
+            },
+            {
+              "type": "text",
+              "content": "Start with the question, not the chart. Every major visual should have a purpose, and the number of visuals should stay manageable. More charts don't automatically mean better analysis."
+            },
+            {
+              "type": "list",
+              "title": "What Every Dashboard in This Course Needs",
+              "items": [
+                "One coherent dashboard experience. Multiple pages or tabs are fine where they make things clearer.",
+                "4 to 6 headline KPIs with clear labels, units, and definitions.",
+                "At least one time-based analysis, where the dataset supports it.",
+                "At least one comparison across a meaningful category or segment.",
+                "At least one detailed visual that goes beyond a simple total.",
+                "At least 3 meaningful filters or slicers, unless you can justify using fewer.",
+                "Clear titles, axis labels, units, and legends where needed.",
+                "A visible source or data note, saying whether the dataset is synthetic or sourced from the World Bank.",
+                "A short insight section with the most important findings.",
+                "Consistent formatting, sensible number formats, and a readable layout."
+              ]
+            },
+            {
+              "type": "table",
+              "title": "Recommended Dashboard Structure",
+              "headers": [
+                "Area",
+                "Purpose",
+                "Typical content"
+              ],
+              "rows": [
+                [
+                  "Header",
+                  "Orient the user",
+                  "Dashboard title, period selected, audience and purpose"
+                ],
+                [
+                  "KPI strip",
+                  "Answer the first-level questions",
+                  "4 to 6 headline measures"
+                ],
+                [
+                  "Trend section",
+                  "Show change over time",
+                  "Line, area, or column chart"
+                ],
+                [
+                  "Comparison section",
+                  "Compare segments",
+                  "Bar, column, heatmap, or map where appropriate"
+                ],
+                [
+                  "Deep-dive section",
+                  "Explain patterns",
+                  "Scatter plot, decomposition, detailed table, distribution, or ranked view"
+                ],
+                [
+                  "Filters",
+                  "Allow exploration",
+                  "Time, geography, customer type, region, category"
+                ],
+                [
+                  "Insights",
+                  "Communicate meaning",
+                  "3 to 8 concise findings and implications"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Draw this layout as a wireframe before you open the tool (Stage 8). Group related information together and decide what the eye should see first."
             }
           ]
         },
@@ -2108,6 +2369,37 @@
             {
               "type": "text",
               "content": "A dashboard showing outdated numbers can be worse than no dashboard at all, because it still looks current even when it isn't. Publishing strategy covers who can see a report and where; refresh strategy covers how often its underlying data updates."
+            },
+            {
+              "type": "text",
+              "content": "Validation (Stage 10) comes before anything gets shared. Recalculate important numbers outside the dashboard, and test the filters, totals, dates, labels, units, and blanks. Ask someone else to try it, or follow a structured self-test. Other people catch the problems you've stopped seeing."
+            },
+            {
+              "type": "list",
+              "title": "Validation Checklist",
+              "items": [
+                "The row count in the dashboard or data model matches the source dataset.",
+                "The date range matches the source dataset.",
+                "At least three key KPI values have been checked independently.",
+                "Filters change the visuals they should, and don't produce contradictory totals.",
+                "Totals and averages use appropriate aggregation.",
+                "Blank values have been handled on purpose, not by accident.",
+                "Currency, percentage, quantity, and date formats are correct.",
+                "Chart titles and units are accurate.",
+                "Top and bottom rankings have been checked for ties and missing values.",
+                "Every calculated metric is documented.",
+                "The dashboard has been tested by another person, or through a structured self-test."
+              ]
+            },
+            {
+              "type": "list",
+              "title": "What to Publish Alongside the Dashboard",
+              "items": [
+                "<strong>Source note:</strong> Visible on the dashboard itself, including whether the data is synthetic or from a public source such as the World Bank.",
+                "<strong>Data-understanding note and profiling issues:</strong> What you found in Stages 2 and 3.",
+                "<strong>KPI definitions:</strong> What each KPI measures and why it matters.",
+                "<strong>Calculated metric documentation:</strong> How each custom measure is worked out."
+              ]
             }
           ]
         }
@@ -2125,6 +2417,19 @@
             {
               "type": "text",
               "content": "It's entirely possible to build a technically perfect report that nobody acts on, simply because it presents numbers without a clear point. Data storytelling is the deliberate practice of shaping data into a narrative that leads a specific audience toward a specific decision."
+            },
+            {
+              "type": "text",
+              "content": "On a dashboard, the storytelling lives in the insight section. The guidelines ask for a short set of the most important findings: at least 3 from your analysis, and usually no more than 8, each written as a concise finding with its implication."
+            },
+            {
+              "type": "list",
+              "title": "What a Good Insight Section Does",
+              "items": [
+                "Picks the findings that matter most, instead of listing everything the dashboard shows.",
+                "Says what each finding means for the audience, not just what the number is.",
+                "Keeps what you observed separate from what might explain it (more on that in Analytical Communication & Trend Exposure)."
+              ]
             }
           ]
         },
@@ -2164,6 +2469,31 @@
                   "Full dashboard or detailed data table"
                 ]
               ]
+            },
+            {
+              "type": "text",
+              "content": "Choose a realistic audience before you design anything (Stage 4), and design for them, not only for yourself as the builder. What feels obvious to you can be invisible, or overwhelming, to someone who has never seen the data."
+            },
+            {
+              "type": "list",
+              "title": "Realistic Audiences to Pick From",
+              "items": [
+                "Utility management",
+                "Customer service management",
+                "An economic analyst",
+                "A policy analyst",
+                "A strategy team"
+              ]
+            },
+            {
+              "type": "list",
+              "title": "Questions to Ask About Your Audience",
+              "items": [
+                "Who will actually open this dashboard?",
+                "What decision will they make with it?",
+                "What do they already know about the data?",
+                "What can you leave out without hurting them?"
+              ]
             }
           ]
         },
@@ -2180,6 +2510,60 @@
                 "<strong>Problem:</strong> What does the data show that's worth addressing?",
                 "<strong>Insight:</strong> What's the recommended takeaway or action?"
               ]
+            },
+            {
+              "type": "text",
+              "content": "Your analytical questions drive your story. They should move from description, through comparison, to interpretation. Avoid questions that only ask someone to read a value off a chart, because then the dashboard isn't adding any analytical value."
+            },
+            {
+              "type": "table",
+              "title": "Seven Levels of Analytical Questions (Stage 5)",
+              "headers": [
+                "Level",
+                "Purpose",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "1. Overview",
+                  "Establish the overall situation",
+                  "What is the total or current level, and how has it changed over time?"
+                ],
+                [
+                  "2. Comparison",
+                  "Compare groups",
+                  "Which customer types, regions, or countries differ most?"
+                ],
+                [
+                  "3. Trend",
+                  "Examine change over time",
+                  "What trend is visible, and when do the major changes occur?"
+                ],
+                [
+                  "4. Distribution",
+                  "Understand concentration or spread",
+                  "Is activity concentrated in a small number of segments?"
+                ],
+                [
+                  "5. Relationship",
+                  "Explore associations",
+                  "Does one variable appear to move with another?"
+                ],
+                [
+                  "6. Exception",
+                  "Find unusual cases",
+                  "Which segments, periods, or entities behave unusually?"
+                ],
+                [
+                  "7. Decision question",
+                  "Connect analysis to action",
+                  "What should a manager investigate or monitor, based on the evidence?"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "content": "One way to use the ladder: the first two levels set the context, levels 3 to 6 surface the problem, and the last level lands the insight and what to do about it."
             }
           ]
         },
@@ -2191,6 +2575,54 @@
             {
               "type": "text",
               "content": "A single number rarely tells the full story. \"Revenue is $2M\" means very little without knowing whether that's up or down, and by how much. Showing the trend behind a number is often more informative than the number itself."
+            },
+            {
+              "type": "list",
+              "title": "Explore Before You Design (Stage 7)",
+              "items": [
+                "Use tables, charts, and summaries to explore the data before settling on the final design.",
+                "Look for trends, differences between groups, relationships, and anomalies.",
+                "Include at least one time-based analysis where the dataset supports it."
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Separating what you saw from why you think it happened is the hardest part of writing insights (Stage 11). An observation is something the data shows. An explanation is only a possibility. Don't make causal claims unless the data or the study design supports them."
+            },
+            {
+              "type": "table",
+              "title": "Observation vs Explanation (Ceylon Mart Examples)",
+              "headers": [
+                "What the data shows",
+                "Careful wording",
+                "Overreach to avoid"
+              ],
+              "rows": [
+                [
+                  "Sales were higher in the months the promotion ran",
+                  "Sales coincide with the promotion months",
+                  "The promotion caused the increase"
+                ],
+                [
+                  "Colombo customers spend more per order",
+                  "Average order value is higher among Colombo customers",
+                  "Living in Colombo makes customers spend more"
+                ],
+                [
+                  "Beverage sales fell in the same period prices rose",
+                  "The fall in beverage sales is associated with the price rise",
+                  "The price rise killed beverage sales"
+                ]
+              ]
+            },
+            {
+              "type": "list",
+              "title": "Phrases That Fit the Evidence",
+              "items": [
+                "\"associated with\"",
+                "\"higher among\"",
+                "\"coincides with\""
+              ]
             }
           ]
         },
@@ -2224,6 +2656,52 @@
                 "3D effects that distort how proportions are perceived.",
                 "Pie charts with too many slices to compare meaningfully."
               ]
+            },
+            {
+              "type": "table",
+              "title": "Pitfall vs Better Practice",
+              "headers": [
+                "Pitfall",
+                "Better practice"
+              ],
+              "rows": [
+                [
+                  "Using a pie or donut chart because it looks attractive",
+                  "Use it only with a small number of categories and a clear part-to-whole message. Otherwise prefer bars, lines, or scatter plots."
+                ],
+                [
+                  "Filling the page with charts",
+                  "Keep the number of visuals manageable. More charts don't automatically mean better analysis."
+                ],
+                [
+                  "Colour everywhere",
+                  "Reserve strong, high-attention colours for exceptions, warnings, or selected states."
+                ],
+                [
+                  "Hiding missing data",
+                  "Show it, and explain it when it affects interpretation."
+                ],
+                [
+                  "Summing a percentage or rate",
+                  "Use the correct aggregation. A population total can be summed across countries, but GDP growth cannot."
+                ],
+                [
+                  "Time stored as text",
+                  "Use true dates or numbers, so months don't sort alphabetically."
+                ],
+                [
+                  "Filters that change nothing",
+                  "Make filters understandable, and remove any that don't change a meaningful visual."
+                ],
+                [
+                  "Causal claims the data can't support",
+                  "Say \"associated with\", \"higher among\", or \"coincides with\" instead."
+                ],
+                [
+                  "Mixed or missing units",
+                  "Use consistent units (LKR, kWh, %, USD bn, people, years) and label them."
+                ]
+              ]
             }
           ]
         },
@@ -2235,6 +2713,31 @@
             {
               "type": "text",
               "content": "Presenting to executives generally means leading with the recommendation first, then following with only the supporting evidence needed to justify it, the opposite order from how the analysis itself was actually built."
+            },
+            {
+              "type": "text",
+              "content": "The seven-area layout from the BI module (header, KPI strip, trend, comparison, deep-dive, filters, insights) also works as a way to present. Open with the insights, since that's your recommendation, then walk through the evidence from the top of the dashboard down."
+            },
+            {
+              "type": "list",
+              "title": "Before You Present",
+              "items": [
+                "Draw a wireframe first, group related information, and set a clear visual hierarchy so the eye lands on the right thing.",
+                "Run through the validation checklist one more time.",
+                "Submit the dashboard together with its supporting documentation.",
+                "Be ready to explain your design choices and your findings."
+              ]
+            },
+            {
+              "type": "list",
+              "title": "Questions to Be Ready For",
+              "items": [
+                "Why did you pick these KPIs?",
+                "Why this chart for this question?",
+                "How is this number calculated, and how do you know it's right?",
+                "What's missing from the data, and does it change the story?",
+                "Who is this dashboard for?"
+              ]
             }
           ]
         }
