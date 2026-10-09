@@ -2298,11 +2298,11 @@
               "title": "What Every Dashboard in This Course Needs",
               "items": [
                 "One coherent dashboard experience. Multiple pages or tabs are fine where they make things clearer.",
-                "4 to 6 headline KPIs with clear labels, units, and definitions.",
-                "At least one time-based analysis, where the dataset supports it.",
-                "At least one comparison across a meaningful category or segment.",
-                "At least one detailed visual that goes beyond a simple total.",
-                "At least 3 meaningful filters or slicers, unless you can justify using fewer.",
+                "Headline KPIs with clear labels, units, and definitions.",
+                "Time-based analysis, where the dataset supports it.",
+                "Comparison across a meaningful category or segment.",
+                "Detailed visual that goes beyond a simple total.",
+                "Meaningful filters or slicers, unless you can justify using fewer.",
                 "Clear titles, axis labels, units, and legends where needed.",
                 "A visible source or data note, saying whether the dataset is synthetic or sourced from the World Bank.",
                 "A short insight section with the most important findings.",
@@ -2326,7 +2326,7 @@
                 [
                   "KPI strip",
                   "Answer the first-level questions",
-                  "4 to 6 headline measures"
+                  "Headline measures"
                 ],
                 [
                   "Trend section",
@@ -2351,7 +2351,7 @@
                 [
                   "Insights",
                   "Communicate meaning",
-                  "3 to 8 concise findings and implications"
+                  "Concise findings and implications"
                 ]
               ]
             },
